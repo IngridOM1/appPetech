@@ -8,6 +8,55 @@ html {
   }
 }
 
+.navBar{
+  background-color: #FFD65B;
+}
+
+.navBar_img{
+  width: 100%;
+}
+
+.navBar_logoHandler{
+  display: flex;
+  align-items: center;
+  width: 120px;
+  justify-content: center;
+}
+
+.navBar_navItemContainer{
+  display: flex;
+  gap: 20px;
+}
+
+.authSection{
+  color: white;
+}
+
+.handler_linksContainer{
+  color: white;
+}
+
+.navBar_iconHandler{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.iconHandler{
+  width: 40px;
+  height: 40px;
+}
+
+.nav_link{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
