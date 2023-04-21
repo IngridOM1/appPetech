@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9lP4p2H3os5DNgGejSdhyzN/GkWCDMLtUJ6g+O1P3qU=",
+  "Hash": "ge7M4eZDahmvKm5u/v1M7C4R4a5dUafYY/5tZP5f7+Q=",
   "Source": "appPetech",
   "BasePath": "_content/appPetech",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\appPetech\\wwwroot\\imagenes\\comedor.jpg",
+      "SourceId": "appPetech",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\appPetech\\wwwroot\\",
+      "BasePath": "_content/appPetech",
+      "RelativePath": "imagenes/comedor.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\comedor.jpg"
     },
     {
       "Identity": "D:\\appPetech\\wwwroot\\js\\site.js",
