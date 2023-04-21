@@ -1,0 +1,88 @@
+@model IEnumerable<appPetech.Models.Producto>
+@{
+    ViewData["Title"] = "Catalogo";  
+}
+
+<h1>@ViewData["Title"]</h1>
+<!--
+  <div class="container">
+    <h1>@ViewData["Message"]</h1>
+    <div class="row">
+      <div class="col">
+        <div id="products" class="mb-3">
+          <div class="row">
+            @foreach (var item in Model) {
+            <div class="col-sm-4">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="card-img-actions">
+                    <img class="shadow p-3 mb-5 bg-white rounded" style="width:400px"
+                src="https://falabella.scene7.com/is/image/FalabellaPE/gsc_119236640_2269819_1?wid=1500&hei=1500&qlt=70" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                  <p class="card-text">@Html.DisplayFor(modelItem => item.Precio)</p>
+                  <a class="btn btn-primary" asp-action="Add" asp-route-id="@item.Id">Add</a>
+                  <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">View</a>
+                </div>
+              </div>
+            </div>
+            }
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+
+
+<div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <img class="shadow p-3 mb-5 bg-white rounded" style="width:200px"
+        src="https://falabella.scene7.com/is/image/FalabellaPE/gsc_119236640_2269819_1?wid=1500&hei=1500&qlt=70" /> 
+        <a href="#" class="btn btn-primary">Ver</a>'  ' <a href="#" class="btn btn-primary">Añadir</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <img class="shadow p-3 mb-5 bg-white rounded" style="width:200px" src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71XrYggZA-S.jpg" />
+        <a href="#" class="btn btn-primary">Ver</a>'  ' <a href="#" class="btn btn-primary">Añadir</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <img class="shadow p-3 mb-5 bg-white rounded" style="width:200px"
+        src="https://falabella.scene7.com/is/image/FalabellaPE/gsc_119236640_2269819_1?wid=1500&hei=1500&qlt=70" />
+        <a href="#" class="btn btn-primary">Ver</a>'  ' <a href="#" class="btn btn-primary">Añadir</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <img class="shadow p-3 mb-5 bg-white rounded" style="width:200px" src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71XrYggZA-S.jpg" />
+        <a href="#" class="btn btn-primary">Ver</a>'  ' <a href="#" class="btn btn-primary">Añadir</a>
+      </div>
+    </div>
+  </div>
+</div>
