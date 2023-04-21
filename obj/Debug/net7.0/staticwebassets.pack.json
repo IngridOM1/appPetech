@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\appPetech\\wwwroot\\imagenes\\collarin.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\collarin.jpeg"
+    },
+    {
       "Id": "D:\\appPetech\\wwwroot\\imagenes\\comedor.jpg",
       "PackagePath": "staticwebassets\\imagenes\\comedor.jpg"
     },
