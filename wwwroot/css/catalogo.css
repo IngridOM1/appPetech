@@ -1,7 +1,7 @@
 
 .productContainerRow_product{
     max-width: 250px;
-    max-height: 468px;
+    min-height: 468px;
     border: solid #FFD65B 2px;
     border-radius: 10px;
     padding: 20px;
