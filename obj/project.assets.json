@@ -11320,11 +11320,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\appPetech-master\\appPetech\\appPetech.csproj",
+      "projectUniqueName": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 22-04\\appPetech\\appPetech.csproj",
       "projectName": "appPetech",
-      "projectPath": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\appPetech-master\\appPetech\\appPetech.csproj",
+      "projectPath": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 22-04\\appPetech\\appPetech.csproj",
       "packagesPath": "C:\\Users\\josue\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\appPetech-master\\appPetech\\obj\\",
+      "outputPath": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 22-04\\appPetech\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\josue\\AppData\\Roaming\\NuGet\\NuGet.Config"

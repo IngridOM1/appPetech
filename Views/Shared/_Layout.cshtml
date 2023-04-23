@@ -11,7 +11,7 @@
 </head>
 <body>
  <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3 navBar">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom navBar">
             <div class="container-fluid navBar_handler">
                 <a class="navbar-brand navBar_logoHandler" asp-area="" asp-controller="Home" asp-action="Index">
                     <img class="navBar_img" src="~/imagenes/PETECHLOGO.png"/>
@@ -36,25 +36,16 @@
                         </li>  
                     </div>
 
-                    <div>
-                        <partial name="_LoginPartial" class="authSection" />
-                    </div>
+                    <div><partial name="_LoginPartial" class="authSection" /></div>
 
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <main role="main">
             @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - appPetech - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+    </main>
+ 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
