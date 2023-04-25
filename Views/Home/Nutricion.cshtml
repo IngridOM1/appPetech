@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "";
+}
+<h1>@ViewData["Title"]</h1>
+
+    <style>
+    
+    .btn-warning {
+
+        border-radius: 40px;
+ 
+}
+    
+    </style>
+
+
+    <div class="container"> 
+        <br/>
+        <br/>
+        <div class="d-flex justify-content-center">
+        
+        <a class="btn btn-success href="#">BLOG</a>
+        </div>
+        
+        <br/>
+        <br/>
+
+        <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-warning my-3 mx-4" asp-area="" asp-controller="Home" asp-action="Nutricion">NUTRICION</a>
+                <a class="btn btn-warning my-3 mx-4" asp-area="" asp-controller="Home" asp-action="Bienestar">BIENESTAR</a>
+                <a class="btn btn-warning my-3 mx-4" asp-area="" asp-controller="Home" asp-action="Estilodevida">ESTILO DE VIDA</a>
+
+
+           
+        </div>
+
+        
+        <div class="row">
+            
+            <div class="col-md-6 col-sm-6">
+            
+        <img  style="width:500px" src="https://www.mascotas.com/cms/revista/Revista_6376551fefd5e_17112022.jpg" />
+            </div>
+                <div class="col-md-6 col-sm-6">
+                <h1>¿Por qué es importante la alimentación en las macotas?</h1>
+            <p>La alimentación es fundamental para su salud, vitalidad y bienestar, y debemos procurar que, a través de ella, reciba todos los nutrientes necesarios para una vida sana y feliz.<p>
+           <a class="btn btn-warning my-3" href="#"> MAS INFORMACIÓN </a>
+            </div>
+                    
+            </div>
+        </div>
+            <br/>
+            <br/>
+         <div class="row">
+            
+            <div class="col-md-6 col-sm-6">
+            
+        <img  style="width:500px" src="data:image/jpeg;base64,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" />
+            </div>
+                <div class="col-md-6 col-sm-6">
+                <h1>¿Puedo darle comida casera a mi  mascota?</h1>
+            <p>La comida casera, en sí misma, no es perjudicial para nuestros perros, pero no conviene que se convierta en su dieta exclusiva. El pienso debería constituir una toma diaria, como mínimo. En el resto de tomas, podemos ofrecerle a nuestro perro comida casera.<p>
+                    <a class="btn btn-warning my-3"  href="#">MAS INFORMACIÓN </a>
+            </div>
+        </div>
+
+
+
+</div>
+
+
+
+    

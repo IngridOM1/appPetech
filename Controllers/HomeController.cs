@@ -26,6 +26,22 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult Nutricion()
+    {
+        return View();
+    }
+
+    
+    public IActionResult Bienestar()
+    {
+        return View();
+    }
+
+    public IActionResult Estilodevida()
+      {
+        return View();
+    }
+
 
     public IActionResult ObtenerProductos()
     {
