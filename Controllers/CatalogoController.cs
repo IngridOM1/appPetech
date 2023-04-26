@@ -5,7 +5,7 @@ using appPetech.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 
-namespace test.Controllers
+namespace appPetech.Controllers
 {
     public class CatalogoController : Controller
     {
