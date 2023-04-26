@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Distributed;
 using Newtonsoft.Json;
 
-namespace appPetech.Controllers
+namespace appPetech.Controllers;
 
 public class PromocionesController : Controller
 {
@@ -43,6 +43,8 @@ public class PromocionesController : Controller
     }
 
 
-    }
+
+}
+    
     
     

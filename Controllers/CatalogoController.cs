@@ -1,57 +1,70 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using appPetech.Models;
-using appPetech.Data;
-
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Logging;
+using appPetech.Data; 
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Caching.Distributed;
-using Newtonsoft.Json;
+using Microsoft.AspNetCore.Identity;
 
-
-
-namespace appPetech.Controllers
+namespace test.Controllers
 {
-    
     public class CatalogoController : Controller
     {
+        
+            
         private readonly ILogger<CatalogoController> _logger;
-        private readonly ApplicationDbContext _dbcontext;
 
-        private readonly IDistributedCache _cache;
+        private readonly ApplicationDbContext _context;
 
-        public CatalogoController(ILogger<CatalogoController> logger,
-                ApplicationDbContext context,
-                IDistributedCache cache)
+        private readonly UserManager<IdentityUser> _userManager;
+
+        public CatalogoController(ApplicationDbContext context, ILogger<CatalogoController> logger, UserManager<IdentityUser> userManager)
         {
-            _logger = logger;
-            _dbcontext = context;
-            _cache = cache;
+            _context = context;
+            _logger = logger;   
+            _userManager = userManager;   
         }
-
 
         public async Task<IActionResult> Index(string? searchString)
         {
-            
-            var productos = from o in _dbcontext.DataProductos select o;
-            //SELECT * FROM t_productos -> &
+            var productos = from o in _context.DataProductos select o;
+
             if(!String.IsNullOrEmpty(searchString)){
-                productos = productos.Where(s => s.Name.Contains(searchString)); //Algebra de bool
-                // & + WHERE name like '%ABC%'
+                productos = productos.Where(s => s.Name.Contains(searchString));
             }
-            productos = productos.Where(s => s.Status.Contains("Activo"));
-            
+
             return View(await productos.ToListAsync());
         }
+        
+        public async Task<IActionResult> Details(int? id){
+            Producto objProd = await _context.DataProductos.FindAsync(id);
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View("Error!");
+            if(objProd == null){
+                return NotFound();
+            }
+            return View(objProd);
         }
+/*
+        public async Task<IActionResult> Add(int? id){
+            var userID = _userManager.GetUserName(User);
+            if(userID == null){
+                ViewData["Message"] = "Debe Iniciar Sesion antes de agregar un producto";
+                List<Producto> productos = new List<Producto>();
+                return View("Index", productos);
+            }else{
+                var producto = await _context.DatProductos.FindAsync(id);
+                Proforma proforma = new Proforma();
+                proforma.producto = producto;
+                proforma.Price = producto.Precio;
+                proforma.Quantity = 1;
+                proforma.UserID = userID;
+                _context.Add(proforma);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+
+            }
+        }
+
+**/
+
     }
 }

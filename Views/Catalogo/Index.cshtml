@@ -1,42 +1,35 @@
 @model IEnumerable<appPetech.Models.Producto>
+
 @{
-    ViewData["Title"] = "Catalogo";  
+    ViewData["Title"] = "Catalogo";
 }
 
-@section Styles {
-    <link href="~/css/catalogo.css" rel="stylesheet" />
-}
-
-
-<h1>@ViewData["Title"]</h1>
-
-  <div class="container">
-    <h1>@ViewData["Message"]</h1>
-    <div class="row">
-      <div class="col">
-        <div id="products" class="mb-3">
-          <div class="row">
-            @foreach (var item in Model) {
-            <div class="col-sm-4">
-              <div class="card mb-3">
-                <div class="card-body">
-                  <div class="card-img-actions">
-                    <img class="shadow p-3 mb-5 bg-white rounded" style="width:400px"
-                src="https://falabella.scene7.com/is/image/FalabellaPE/gsc_119236640_2269819_1?wid=1500&hei=1500&qlt=70" />
-                  </div>
+    <div class="container">
+        <h1>@ViewData["Message"]</h1>
+        <div class="row">
+            <div class="col">
+                <div id="products" class="mb-3">
+                    <div class="row">
+                        @foreach (var item in Model){
+                            <div class="col-sm-4">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="card-img-actions">
+                                            <img  class="card-img-top" src="imagenes/@item.ImageName" alt="@item.ImageName">
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                                        <p class="card-text">S/. @Html.DisplayFor(modelItem => item.Precio)</p>
+                                        <a class="btn btn-primary" asp-action="Add" asp-route-id="@item.Id" >Add</a>
+                                        <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">View</a>
+                                    </div>
+                                </div>
+                            </div> 
+                        }
+                    </div>
                 </div>
-                <div class="card-body">
-                  <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
-                  <p class="card-text">@Html.DisplayFor(modelItem => item.Precio)</p>
-                  <a class="btn btn-primary" asp-action="Add" asp-route-id="@item.Id">Add</a>
-                  <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">View</a>
-                </div>
-              </div>
             </div>
-            }
-         </div>
         </div>
-      </div>
     </div>
-  </div>
-
+ 
