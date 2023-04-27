@@ -27,6 +27,7 @@ public class HomeController : Controller
     public async Task<IActionResult> Index(string searchString)
     {
         var productos = await ObtenerProductos2(searchString);
+        //ObtenerProductos();
         return View(productos);
     }
 
@@ -44,7 +45,7 @@ public class HomeController : Controller
     }
 
 
-    /*public IActionResult ObtenerProductos()
+    public IActionResult ObtenerProductos()
     {
         var models = new List<Producto>{
             new Producto {Name ="Dispensador de galletas"   ,Precio=20.50M, ImageName ="producto.png",PorcentajeDescuento=0.6M},
@@ -56,11 +57,6 @@ public class HomeController : Controller
             new Producto {Name ="Collarin"   ,Precio=14.05M, ImageName ="collarin.jpeg",PorcentajeDescuento=0.6M}
         };
         return View("~/Views/Home/Index.cshtml",models);
-    }*/
-
-    public IActionResult Privacy()
-    {
-        return View();
     }
 
     public IActionResult Nutricion()
