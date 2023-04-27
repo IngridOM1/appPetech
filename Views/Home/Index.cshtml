@@ -1,4 +1,6 @@
-﻿@{
+﻿@model IEnumerable<appPetech.Models.Producto>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -12,17 +14,21 @@
                 <h2 class="indexSection_h2" >LO ÚLTIMO DE NUESTRA TIENDA!!!!!</h2>
                 <hr class="indexSection_h3"></hr>
 
-                <form asp-controller="Home" asp-action="Index" class="searchForm">
+                <form method="post" asp-controller="Home" asp-action="Index" class="searchForm">
                     <input type="text" name="searchString" class="searchForm_input" placeholder="Ejm : Comida para perros, Arena de gato, Collarines...."/>
                     <button type="submit" class="searchForm_btn"><img class="btn_search" src="/imagenes/search_icon.svg"/></button>
                 </form>
-                <div class="indexSection_productHandler">
+                <div id="products" class="indexSection_productHandler">
                     @foreach (var item in Model)
                     {
                     <div class="productComponentContainer">
                         <label class="productComponentContainer_label">@item.Name</label>
                         <!-- <img class="productComponentContainer_img" src="@item.ImageName"></img> -->
-                        <img class="productComponentContainer_img" src="~/imagenes/@item.ImageName"></img>
+                        @if (item.ImageName != null)
+                        {
+                            <img class="productComponentContainer_img" src="~/imagenes/@item.ImageName" />
+                        }
+                        <!--<img class="productComponentContainer_img" src="~/imagenes/@item.ImageName"></img>-->
                         <label class="productComponentContainer_precio">S/@item.Precio</label>
                         <button class="productComponentContainer_btn" >Comprar</button>
                     </div>
