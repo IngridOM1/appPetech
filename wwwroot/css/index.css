@@ -1,3 +1,35 @@
+.popUpContainer{
+  background-color: #00000038;
+  width: 100vw;   
+  height: 100%;
+  position: absolute;
+  z-index: 500;
+}
+
+.popUpContainer_imgContainer{
+  width: 70vw;
+  max-width: 350px;
+  max-height: 500px;
+  position: fixed;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+.popUpContainer_close{
+  position: absolute;
+  left: 84.5%;
+  top: 5.5%;
+  z-index: 600;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.popUpContainer_img{
+  width: 100%;
+}
+
 .carousel {
     position: relative;
     overflow: hidden;
