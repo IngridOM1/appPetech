@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\imagenes\\PETECHLOGO.png"
     },
     {
+      "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 28-04\\appPetech\\wwwroot\\imagenes\\advertencia.png",
+      "PackagePath": "staticwebassets\\imagenes\\advertencia.png"
+    },
+    {
       "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 28-04\\appPetech\\wwwroot\\imagenes\\blog_icon.svg",
       "PackagePath": "staticwebassets\\imagenes\\blog_icon.svg"
     },
@@ -45,6 +49,10 @@
       "PackagePath": "staticwebassets\\imagenes\\bravecto.jpg"
     },
     {
+      "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 28-04\\appPetech\\wwwroot\\imagenes\\cartIcon.svg",
+      "PackagePath": "staticwebassets\\imagenes\\cartIcon.svg"
+    },
+    {
       "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 28-04\\appPetech\\wwwroot\\imagenes\\collarin.jpeg",
       "PackagePath": "staticwebassets\\imagenes\\collarin.jpeg"
     },
@@ -53,8 +61,16 @@
       "PackagePath": "staticwebassets\\imagenes\\comedor.jpg"
     },
     {
+      "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 28-04\\appPetech\\wwwroot\\imagenes\\mapIcon.svg",
+      "PackagePath": "staticwebassets\\imagenes\\mapIcon.svg"
+    },
+    {
       "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 28-04\\appPetech\\wwwroot\\imagenes\\nuestrasTiendas.jpg",
       "PackagePath": "staticwebassets\\imagenes\\nuestrasTiendas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 28-04\\appPetech\\wwwroot\\imagenes\\phoneIcon.svg",
+      "PackagePath": "staticwebassets\\imagenes\\phoneIcon.svg"
     },
     {
       "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 28-04\\appPetech\\wwwroot\\imagenes\\portada1.png",
@@ -75,6 +91,10 @@
     {
       "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 28-04\\appPetech\\wwwroot\\imagenes\\search_icon.svg",
       "PackagePath": "staticwebassets\\imagenes\\search_icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 28-04\\appPetech\\wwwroot\\js\\PopUp.js",
+      "PackagePath": "staticwebassets\\js\\PopUp.js"
     },
     {
       "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 28-04\\appPetech\\wwwroot\\js\\index.js",

@@ -59,10 +59,64 @@ html {
   text-decoration: none;
 }
 
+.sideBar_header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sideBar{
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+  background-color: white;
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px;
+  position: fixed;
+  z-index: 400;
+  top: 20%;
+  max-width: 350px;
+  border: 2px solid #ffd65b;
+  border-left: 0px;
+}
 
 
+.sideBar_closeIcon{
+    width: 45px;
+    cursor: pointer;
+    z-index: 500;
+}
 
+.openButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#ffd65b ;
+  padding: 10px;
+  width: 50px;
+  border-radius:0px 50%  50% 0px;
+  position: fixed;
+  z-index: 400;
+  top: 20%;
+  border: 2px solid #646464;
+  border-left: 0px;
+}
 
+.openButton img{
+  width: 100%;
+}
+
+.sideBar_options img{
+  width: 50px;
+  padding: 10px;
+}
+
+.sideBar_options{
+  display: flex;
+  border-top: 1px solid black;
+  align-items: center;
+}
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
