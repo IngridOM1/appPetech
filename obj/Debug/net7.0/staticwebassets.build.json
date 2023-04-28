@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ItJ8eaQLic/rnxfgACC5zWn3JtZVRIRm5zjHVS9Sm+g=",
+  "Hash": "Pxgk+cjPEZqqlppMNV8CEjcUk6P0iU5tI9xxM/vfTk0=",
   "Source": "appPetech",
   "BasePath": "_content/appPetech",
   "Mode": "Default",
@@ -1241,6 +1241,23 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\bravecto.jpg"
     },
     {
+      "Identity": "D:\\appPetech5\\appPetech\\wwwroot\\imagenes\\camaperros.png",
+      "SourceId": "appPetech",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\appPetech5\\appPetech\\wwwroot\\",
+      "BasePath": "_content/appPetech",
+      "RelativePath": "imagenes/camaperros.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\camaperros.png"
+    },
+    {
       "Identity": "D:\\appPetech5\\appPetech\\wwwroot\\imagenes\\collarin.jpeg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
@@ -1256,6 +1273,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\collarin.jpeg"
+    },
+    {
+      "Identity": "D:\\appPetech5\\appPetech\\wwwroot\\imagenes\\collaringatos.png",
+      "SourceId": "appPetech",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\appPetech5\\appPetech\\wwwroot\\",
+      "BasePath": "_content/appPetech",
+      "RelativePath": "imagenes/collaringatos.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\collaringatos.png"
+    },
+    {
+      "Identity": "D:\\appPetech5\\appPetech\\wwwroot\\imagenes\\collarinperros.jpg",
+      "SourceId": "appPetech",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\appPetech5\\appPetech\\wwwroot\\",
+      "BasePath": "_content/appPetech",
+      "RelativePath": "imagenes/collarinperros.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\collarinperros.jpg"
     },
     {
       "Identity": "D:\\appPetech5\\appPetech\\wwwroot\\imagenes\\comedor.jpg",
@@ -1290,6 +1341,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\nuestrasTiendas.jpg"
+    },
+    {
+      "Identity": "D:\\appPetech5\\appPetech\\wwwroot\\imagenes\\nutricanadultos.png",
+      "SourceId": "appPetech",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\appPetech5\\appPetech\\wwwroot\\",
+      "BasePath": "_content/appPetech",
+      "RelativePath": "imagenes/nutricanadultos.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\nutricanadultos.png"
     },
     {
       "Identity": "D:\\appPetech5\\appPetech\\wwwroot\\imagenes\\PETECHLOGO.png",

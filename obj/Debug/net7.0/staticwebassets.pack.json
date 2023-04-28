@@ -49,8 +49,20 @@
       "PackagePath": "staticwebassets\\imagenes\\bravecto.jpg"
     },
     {
+      "Id": "D:\\appPetech5\\appPetech\\wwwroot\\imagenes\\camaperros.png",
+      "PackagePath": "staticwebassets\\imagenes\\camaperros.png"
+    },
+    {
       "Id": "D:\\appPetech5\\appPetech\\wwwroot\\imagenes\\collarin.jpeg",
       "PackagePath": "staticwebassets\\imagenes\\collarin.jpeg"
+    },
+    {
+      "Id": "D:\\appPetech5\\appPetech\\wwwroot\\imagenes\\collaringatos.png",
+      "PackagePath": "staticwebassets\\imagenes\\collaringatos.png"
+    },
+    {
+      "Id": "D:\\appPetech5\\appPetech\\wwwroot\\imagenes\\collarinperros.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\collarinperros.jpg"
     },
     {
       "Id": "D:\\appPetech5\\appPetech\\wwwroot\\imagenes\\comedor.jpg",
@@ -59,6 +71,10 @@
     {
       "Id": "D:\\appPetech5\\appPetech\\wwwroot\\imagenes\\nuestrasTiendas.jpg",
       "PackagePath": "staticwebassets\\imagenes\\nuestrasTiendas.jpg"
+    },
+    {
+      "Id": "D:\\appPetech5\\appPetech\\wwwroot\\imagenes\\nutricanadultos.png",
+      "PackagePath": "staticwebassets\\imagenes\\nutricanadultos.png"
     },
     {
       "Id": "D:\\appPetech5\\appPetech\\wwwroot\\imagenes\\portada1.png",
