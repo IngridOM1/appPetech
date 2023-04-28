@@ -23,6 +23,11 @@ a {
   border-color: #1861ac;
 }
 
+.material-symbols-outlined {
+  color: white;
+  font-size: 2em;
+}
+
 .border-top {
   border-top: 1px solid #e5e5e5;
 }
@@ -31,7 +36,7 @@ a {
 }
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  box-shadow: 0 .25rem .75rem rgba(133, 126, 126, 0.05);
 }
 
 button.accept-policy {

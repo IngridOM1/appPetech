@@ -57,8 +57,20 @@
       "PackagePath": "staticwebassets\\imagenes\\nuestrasTiendas.jpg"
     },
     {
+      "Id": "D:\\appPetech3\\appPetech\\wwwroot\\imagenes\\portada1.png",
+      "PackagePath": "staticwebassets\\imagenes\\portada1.png"
+    },
+    {
+      "Id": "D:\\appPetech3\\appPetech\\wwwroot\\imagenes\\prueba.png",
+      "PackagePath": "staticwebassets\\imagenes\\prueba.png"
+    },
+    {
       "Id": "D:\\appPetech3\\appPetech\\wwwroot\\imagenes\\search_icon.svg",
       "PackagePath": "staticwebassets\\imagenes\\search_icon.svg"
+    },
+    {
+      "Id": "D:\\appPetech3\\appPetech\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
     },
     {
       "Id": "D:\\appPetech3\\appPetech\\wwwroot\\js\\site.js",
