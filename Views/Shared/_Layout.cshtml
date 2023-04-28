@@ -58,9 +58,31 @@
         </nav>
     </header>
     <main role="main">
+                    <div id='sideBar-open' class="openButton">
+                <img class="openButton_img" src="/imagenes/ArrowIcon.svg">
+            </div>
+            <div id="sidebar" class='sideBar'>
+                <div class="sideBar_header">
+                    <h1>Opciones</h1>
+                    <img id="sidebar-close" class="sideBar_closeIcon" src="/imagenes/closeIcon.svg">
+                </div>
+                <div class="sideBar_options">
+                    <img class="options_cartIcon" src="/imagenes/cartIcon.svg">
+                    <label>Carrito</label>
+                </div>
+                <div class="sideBar_options">
+                    <img class="options_mapIcon" src="/imagenes/mapIcon.svg">
+                    <label>Tiendas</label>
+                </div>
+                <div class="sideBar_options">
+                    <img class="options_phoneIcon" src="/imagenes/phoneIcon.svg">
+                    <label>Contactenos</label>
+                </div>
+            </div>
             @RenderBody()
     </main>
 
+    <script src="/js/PopUp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/bootstrap-icons.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

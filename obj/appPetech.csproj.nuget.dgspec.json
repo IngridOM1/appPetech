@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\appPetech5\\appPetech\\appPetech.csproj": {}
+    "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\PetechIngridVersion\\appPetech\\appPetech.csproj": {}
   },
   "projects": {
-    "D:\\appPetech5\\appPetech\\appPetech.csproj": {
+    "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\PetechIngridVersion\\appPetech\\appPetech.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\appPetech5\\appPetech\\appPetech.csproj",
+        "projectUniqueName": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\PetechIngridVersion\\appPetech\\appPetech.csproj",
         "projectName": "appPetech",
-        "projectPath": "D:\\appPetech5\\appPetech\\appPetech.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\appPetech5\\appPetech\\obj\\",
+        "projectPath": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\PetechIngridVersion\\appPetech\\appPetech.csproj",
+        "packagesPath": "C:\\Users\\josue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\PetechIngridVersion\\appPetech\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\josue\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
