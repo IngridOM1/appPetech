@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2lf2hjxqwd3o5S8SDWgaf+QUMgtqCHpfbWHAevEpxSQ=",
+  "Hash": "6OlRJhc/m73fSGYWkF6LkVDp5iKNgo0lMN+QUyH8mm4=",
   "Source": "appPetech",
   "BasePath": "_content/appPetech",
   "Mode": "Default",
@@ -1292,6 +1292,40 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\PETECHLOGO.png"
     },
     {
+      "Identity": "D:\\appPetech3\\appPetech\\wwwroot\\imagenes\\portada1.png",
+      "SourceId": "appPetech",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\appPetech3\\appPetech\\wwwroot\\",
+      "BasePath": "_content/appPetech",
+      "RelativePath": "imagenes/portada1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\portada1.png"
+    },
+    {
+      "Identity": "D:\\appPetech3\\appPetech\\wwwroot\\imagenes\\prueba.png",
+      "SourceId": "appPetech",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\appPetech3\\appPetech\\wwwroot\\",
+      "BasePath": "_content/appPetech",
+      "RelativePath": "imagenes/prueba.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\prueba.png"
+    },
+    {
       "Identity": "D:\\appPetech3\\appPetech\\wwwroot\\imagenes\\search_icon.svg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
@@ -1307,6 +1341,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\search_icon.svg"
+    },
+    {
+      "Identity": "D:\\appPetech3\\appPetech\\wwwroot\\js\\index.js",
+      "SourceId": "appPetech",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\appPetech3\\appPetech\\wwwroot\\",
+      "BasePath": "_content/appPetech",
+      "RelativePath": "js/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\index.js"
     },
     {
       "Identity": "D:\\appPetech3\\appPetech\\wwwroot\\js\\site.js",

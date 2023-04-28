@@ -1,8 +1,40 @@
-.indexSection_img{
+.carousel {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel__wrapper {
+    display: flex;
+  }
+  
+  .carousel__container {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel__item {
     width: 100%;
-    max-height: 400px;
-    margin: 0px auto 20px;
-}
+  }
+  
+  .carousel__dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .carousel__dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .carousel__dot--active {
+    background-color: #555;
+  }
+
 
 .productComponentContainer_precio{
     font-size: 1.8em;

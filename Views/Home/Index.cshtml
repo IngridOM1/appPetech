@@ -9,9 +9,24 @@
 }
 
 <section class="indexSection">
-                <img class="indexSection_img" 
-                src="/imagenes/nuestrasTiendas.jpg"/>
-                <h2 class="indexSection_h2" >LO ÚLTIMO DE NUESTRA TIENDA!!</h2>
+    <br><br>
+                <section class="carousel">
+                    <div class="carousel__wrapper">
+                        <div class="carousel__container">
+                        <img class="carousel__item" src="/imagenes/portada1.png" alt="Imagen 1">
+                        <img class="carousel__item" src="/imagenes/portada3.png" alt="Imagen 2">
+                        <img class="carousel__item" src="/imagenes/portada2.png" alt="Imagen 3">
+                        </div>
+                    </div>
+                    <div class="carousel__dots">
+                        <span class="carousel__dot" data-slide="1"></span>
+                        <span class="carousel__dot" data-slide="2"></span>
+                        <span class="carousel__dot" data-slide="3"></span>
+                    </div>
+                    </section>
+
+
+                <h2 class="indexSection_h2" >LO ÚLTIMO DE NUESTRA TIENDA!!!</h2>
                 <hr class="indexSection_h3"></hr>
 
                 <form method="post" asp-controller="Home" asp-action="Index" class="searchForm">
@@ -34,4 +49,5 @@
                     </div>
                     }
                 </div>
+                <script src="/js/index.js"></script>
 <section>

@@ -9,81 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = appPetech
 build_property.RootNamespace = appPetech
-build_property.ProjectDir = d:\appPetech3\appPetech\
+build_property.ProjectDir = D:\appPetech3\appPetech\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\appPetech3\appPetech
+build_property.MSBuildProjectDirectory = D:\appPetech3\appPetech
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/appPetech3/appPetech/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/appPetech3/appPetech/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/Catalogo/Details.cshtml]
+[D:/appPetech3/appPetech/Views/Catalogo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/Catalogo/Index.cshtml]
+[D:/appPetech3/appPetech/Views/Catalogo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/Contacto/Create.cshtml]
+[D:/appPetech3/appPetech/Views/Contacto/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/Home/Bienestar.cshtml]
+[D:/appPetech3/appPetech/Views/Home/Bienestar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCaWVuZXN0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/Home/Estilodevida.cshtml]
+[D:/appPetech3/appPetech/Views/Home/Estilodevida.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFc3RpbG9kZXZpZGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/Home/Index.cshtml]
+[D:/appPetech3/appPetech/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/Home/Nutricion.cshtml]
+[D:/appPetech3/appPetech/Views/Home/Nutricion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOdXRyaWNpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/Promociones/Index.cshtml]
+[D:/appPetech3/appPetech/Views/Promociones/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/Promociones/Liquidaciones.cshtml]
+[D:/appPetech3/appPetech/Views/Promociones/Liquidaciones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uZXNcTGlxdWlkYWNpb25lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/Promociones/Promos.cshtml]
+[D:/appPetech3/appPetech/Views/Promociones/Promos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uZXNcUHJvbW9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/Promociones/Superofertas.cshtml]
+[D:/appPetech3/appPetech/Views/Promociones/Superofertas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uZXNcU3VwZXJvZmVydGFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/Shared/Error.cshtml]
+[D:/appPetech3/appPetech/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/Shared/_LoginPartial.cshtml]
+[D:/appPetech3/appPetech/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/appPetech3/appPetech/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/_ViewImports.cshtml]
+[D:/appPetech3/appPetech/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/_ViewStart.cshtml]
+[D:/appPetech3/appPetech/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/appPetech3/appPetech/Views/Shared/_Layout.cshtml]
+[D:/appPetech3/appPetech/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rooo9i4uuq
