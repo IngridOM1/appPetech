@@ -18645,6 +18645,11 @@
   "RootNamespace": "appPetech",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\PetechIngridVersion\\appPetech\\Views\\Contacto\\prueba.cshtml",
+      "TargetPath": "Views\\Contacto\\prueba.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\PetechIngridVersion\\appPetech\\Views\\Home\\Nutricion.cshtml",
       "TargetPath": "Views\\Home\\Nutricion.cshtml",
       "FileKind": "mvc"
