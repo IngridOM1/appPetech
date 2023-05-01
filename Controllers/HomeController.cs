@@ -26,9 +26,15 @@ public class HomeController : Controller
 
     public async Task<IActionResult> Index(string searchString)
     {
+
         var productos = await ObtenerProductos2(searchString);
-        //ObtenerProductos();
-        return View(productos);
+        var userID = _userManager.GetUserName(User);
+            if(userID == null){
+                return View(productos);
+            }else{
+                return RedirectToAction("Index","Catalogo");
+            }
+
     }
 
 

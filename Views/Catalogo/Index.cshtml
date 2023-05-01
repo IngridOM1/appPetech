@@ -1,41 +1,67 @@
 @model IEnumerable<appPetech.Models.Producto>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 @{
     ViewData["Title"] = "Catalogo";
+
+    if(SignInManager.IsSignedIn(User)){
+       Layout = "~/Views/Shared/_LayoutLogued.cshtml";
+    } else {
+        Layout = "~/Views/Shared/_Layout.cshtml"; // El layout predeterminado
+    }
+
 }
+
+@section Styles {
+    <link href="~/css/index.css" rel="stylesheet" />
+}
+
 <br>
-    <div class="container">
+    <div class="indexSection">
         <h1>@ViewData["Message"]</h1>
-        <div class="row">
-            <div class="col">
-                <div id="products" class="mb-3">
-                    <div class="row">
-                        @foreach (var item in Model){
-                            <div class="col-sm-4">
-                                <div class="card mb-3">
-                                    <div class="card-body">
-                                        <div class="card-img-actions">
-                                            <img  class="card-img-top" src="imagenes/@item.ImageName" alt="@item.ImageName width="250" height="250">
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
-                                        <p class="card-text">S/. @Html.DisplayFor(modelItem => item.Precio)</p>
-                                        <a class="btn btn-primary" style="background-color: #ED981D; border: 1px solid #ED981D;"
-                                            asp-action="Add" asp-route-id="@item.Id">
-                                            <span class="material-symbols-outlined" style="vertical-align: middle;">
-                                                shopping_cart
-                                            </span>
-                                            Añadir
-                                            </a>
-                                        <a class="btn btn-info" style="background-color: #FAD7A5; border: 1px solid #FAD7A5;" asp-action="Details" asp-route-id="@item.Id">Ver más </a>
-                                    </div>
-                                </div>
-                            </div> 
-                        }
+        <br>
+                <section class="carousel">
+                    <div class="carousel__wrapper">
+                        <div class="carousel__container">
+                        <img class="carousel__item" src="/imagenes/portada1.png" alt="Imagen 1">
+                        <img class="carousel__item" src="/imagenes/portada3.png" alt="Imagen 2">
+                        <img class="carousel__item" src="/imagenes/portada2.png" alt="Imagen 3">
+                        </div>
                     </div>
-                </div>
-            </div>
+                    <div class="carousel__dots">
+                        <span class="carousel__dot" data-slide="1"></span>
+                        <span class="carousel__dot" data-slide="2"></span>
+                        <span class="carousel__dot" data-slide="3"></span>
+                    </div>
+                    </section>
+
+
+                <h2 class="indexSection_h2" >LO ÚLTIMO DE NUESTRA TIENDA!!!</h2>
+                <hr class="indexSection_h3"></hr>
+
+        <form method="post" asp-controller="Catalogo" asp-action="Index" class="searchForm">
+            <input type="text" name="searchString" class="searchForm_input" placeholder="Ejm : Comida para perros, Arena de gato, Collarines...."/>
+            <button type="submit" class="searchForm_btn"><img class="btn_search" src="/imagenes/search_icon.svg"/></button>
+        </form>
+
+
+        <div id="products" class="indexSection_productHandler">
+                        @foreach (var item in Model){
+                            <div class="productComponentContainer">
+                        <label class="productComponentContainer_label">@item.Name</label>
+                        @if (item.ImageName != null)
+                        {
+                            <img class="productComponentContainer_img" src="~/imagenes/@item.ImageName " alt="width="150" height="150"/>
+                        }
+                        <label class="productComponentContainer_precio">S/@Html.DisplayFor(modelItem => item.Precio)</label>
+                        <div class="btn_options">
+                            <a class="btn btn-primary" style="background-color: #ED981D; border: 1px solid #ED981D;"asp-action="Add" asp-route-id="@item.Id"><span class="material-symbols-outlined" style="vertical-align: middle;">shopping_cart</span>Añadir</a>
+                            <a class="btn btn-info" style="background-color: #FAD7A5; border: 1px solid #FAD7A5;" asp-action="Details" asp-route-id="@item.Id">Ver más </a>
+                        </div>
+                    </div>
+                        }      
         </div>
     </div>
  

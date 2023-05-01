@@ -26,15 +26,21 @@ namespace appPetech.Controllers
 
         public async Task<IActionResult> Index(string? searchString)
         {
-            var productos = from o in _context.DataProductos select o;
-
-            if(!String.IsNullOrEmpty(searchString)){
-                productos = productos.Where(s => s.Name.Contains(searchString));
-            }
-
-            return View(await productos.ToListAsync());
+            var productos = await ObtenerProductosCatalogo(searchString);
+            return View(productos);
         }
         
+        public async Task<List<Producto>> ObtenerProductosCatalogo(string searchString)
+    {
+        var productos = from o in _context.DataProductos select o;
+
+        if(!String.IsNullOrEmpty(searchString)){
+            productos = productos.Where(s => s.Name.Contains(searchString));
+        }
+
+        return await productos.ToListAsync();
+    }
+
         public async Task<IActionResult> Details(int? id){
             Producto objProd = await _context.DataProductos.FindAsync(id);
 
@@ -43,7 +49,7 @@ namespace appPetech.Controllers
             }
             return View(objProd);
         }
-/*
+
         public async Task<IActionResult> Add(int? id){
             var userID = _userManager.GetUserName(User);
             if(userID == null){
@@ -51,20 +57,20 @@ namespace appPetech.Controllers
                 List<Producto> productos = new List<Producto>();
                 return View("Index", productos);
             }else{
-                var producto = await _context.DatProductos.FindAsync(id);
-                Proforma proforma = new Proforma();
-                proforma.producto = producto;
-                proforma.Price = producto.Precio;
-                proforma.Quantity = 1;
-                proforma.UserID = userID;
-                _context.Add(proforma);
+                var producto = await _context.DataProductos.FindAsync(id);
+                Cart cart = new Cart();
+                cart.Producto = producto;
+                cart.Precio = producto.Precio;
+                cart.Cantidad = 1;
+                cart.UserID = userID;
+                _context.Add(cart);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
 
             }
         }
 
-**/
+
 
     }
 }
