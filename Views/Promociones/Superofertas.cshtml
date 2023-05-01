@@ -1,7 +1,17 @@
-﻿@{
-    ViewData["Title"] = "";
-}
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
+@{
+    ViewData["Title"] = "";
+
+    if(SignInManager.IsSignedIn(User)){
+       Layout = "~/Views/Shared/_LayoutLogued.cshtml";
+    } else {
+        Layout = "~/Views/Shared/_Layout.cshtml"; // El layout predeterminado
+    }
+
+}
   <style>
     
     .btn-warning {

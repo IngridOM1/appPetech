@@ -26,15 +26,21 @@ namespace appPetech.Controllers
 
         public async Task<IActionResult> Index(string? searchString)
         {
-            var productos = from o in _context.DataProductos select o;
-
-            if(!String.IsNullOrEmpty(searchString)){
-                productos = productos.Where(s => s.Name.Contains(searchString));
-            }
-
-            return View(await productos.ToListAsync());
+            var productos = await ObtenerProductosCatalogo(searchString);
+            return View(productos);
         }
         
+        public async Task<List<Producto>> ObtenerProductosCatalogo(string searchString)
+    {
+        var productos = from o in _context.DataProductos select o;
+
+        if(!String.IsNullOrEmpty(searchString)){
+            productos = productos.Where(s => s.Name.Contains(searchString));
+        }
+
+        return await productos.ToListAsync();
+    }
+
         public async Task<IActionResult> Details(int? id){
             Producto objProd = await _context.DataProductos.FindAsync(id);
 

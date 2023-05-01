@@ -18685,6 +18685,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\PetechIngridVersion\\appPetech\\Views\\Shared\\_LayoutLogued.cshtml",
+      "TargetPath": "Views\\Shared\\_LayoutLogued.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\PetechIngridVersion\\appPetech\\Views\\Promociones\\Liquidaciones.cshtml",
       "TargetPath": "Views\\Promociones\\Liquidaciones.cshtml",
       "FileKind": "mvc"

@@ -1,7 +1,17 @@
 @model IEnumerable<appPetech.Models.Producto>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 @{
     ViewData["Title"] = "Catalogo";
+
+    if(SignInManager.IsSignedIn(User)){
+       Layout = "~/Views/Shared/_LayoutLogued.cshtml";
+    } else {
+        Layout = "~/Views/Shared/_Layout.cshtml"; // El layout predeterminado
+    }
+
 }
 
 @section Styles {
@@ -11,8 +21,27 @@
 <br>
     <div class="indexSection">
         <h1>@ViewData["Message"]</h1>
+        <br>
+                <section class="carousel">
+                    <div class="carousel__wrapper">
+                        <div class="carousel__container">
+                        <img class="carousel__item" src="/imagenes/portada1.png" alt="Imagen 1">
+                        <img class="carousel__item" src="/imagenes/portada3.png" alt="Imagen 2">
+                        <img class="carousel__item" src="/imagenes/portada2.png" alt="Imagen 3">
+                        </div>
+                    </div>
+                    <div class="carousel__dots">
+                        <span class="carousel__dot" data-slide="1"></span>
+                        <span class="carousel__dot" data-slide="2"></span>
+                        <span class="carousel__dot" data-slide="3"></span>
+                    </div>
+                    </section>
 
-        <form method="post" asp-controller="Home" asp-action="Index" class="searchForm">
+
+                <h2 class="indexSection_h2" >LO ÚLTIMO DE NUESTRA TIENDA!!!</h2>
+                <hr class="indexSection_h3"></hr>
+
+        <form method="post" asp-controller="Catalogo" asp-action="Index" class="searchForm">
             <input type="text" name="searchString" class="searchForm_input" placeholder="Ejm : Comida para perros, Arena de gato, Collarines...."/>
             <button type="submit" class="searchForm_btn"><img class="btn_search" src="/imagenes/search_icon.svg"/></button>
         </form>
