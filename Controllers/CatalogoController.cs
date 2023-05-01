@@ -43,7 +43,7 @@ namespace appPetech.Controllers
             }
             return View(objProd);
         }
-/*
+
         public async Task<IActionResult> Add(int? id){
             var userID = _userManager.GetUserName(User);
             if(userID == null){
@@ -51,20 +51,20 @@ namespace appPetech.Controllers
                 List<Producto> productos = new List<Producto>();
                 return View("Index", productos);
             }else{
-                var producto = await _context.DatProductos.FindAsync(id);
-                Proforma proforma = new Proforma();
-                proforma.producto = producto;
-                proforma.Price = producto.Precio;
-                proforma.Quantity = 1;
-                proforma.UserID = userID;
-                _context.Add(proforma);
+                var producto = await _context.DataProductos.FindAsync(id);
+                Cart cart = new Cart();
+                cart.Producto = producto;
+                cart.Precio = producto.Precio;
+                cart.Cantidad = 1;
+                cart.UserID = userID;
+                _context.Add(cart);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
 
             }
         }
 
-**/
+
 
     }
 }
