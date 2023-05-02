@@ -18665,6 +18665,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\PetechIngridVersion\\appPetech\\Views\\Cart\\Index.cshtml",
+      "TargetPath": "Views\\Cart\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\PetechIngridVersion\\appPetech\\Views\\Contacto\\Create.cshtml",
       "TargetPath": "Views\\Contacto\\Create.cshtml",
       "FileKind": "mvc"
