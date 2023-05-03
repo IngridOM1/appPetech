@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\appPetech11\\appPetech\\appPetech.csproj": {}
+    "D:\\appPetech12\\appPetech\\appPetech.csproj": {}
   },
   "projects": {
-    "D:\\appPetech11\\appPetech\\appPetech.csproj": {
+    "D:\\appPetech12\\appPetech\\appPetech.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\appPetech11\\appPetech\\appPetech.csproj",
+        "projectUniqueName": "D:\\appPetech12\\appPetech\\appPetech.csproj",
         "projectName": "appPetech",
-        "projectPath": "D:\\appPetech11\\appPetech\\appPetech.csproj",
+        "projectPath": "D:\\appPetech12\\appPetech\\appPetech.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\appPetech11\\appPetech\\obj\\",
+        "outputPath": "D:\\appPetech12\\appPetech\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
