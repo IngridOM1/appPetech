@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2Q/Y7VNhTod+uRYGsZ0xG2oDTNiz9fG1qCf2pwsrtGg=",
+  "Hash": "0Qz3GTpJUmEB+hFEbRP+OqEK7UPimo0ww6b+8s+VJvQ=",
   "Source": "appPetech",
   "BasePath": "_content/appPetech",
   "Mode": "Default",
@@ -1137,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\contacto.css"
+    },
+    {
+      "Identity": "D:\\appPetech9\\appPetech\\wwwroot\\css\\details.css",
+      "SourceId": "appPetech",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\appPetech9\\appPetech\\wwwroot\\",
+      "BasePath": "_content/appPetech",
+      "RelativePath": "css/details.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\details.css"
     },
     {
       "Identity": "D:\\appPetech9\\appPetech\\wwwroot\\css\\index.css",

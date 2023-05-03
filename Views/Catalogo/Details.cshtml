@@ -3,6 +3,7 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
+
 @{
     ViewData["Title"] = "Details";
 
@@ -13,7 +14,9 @@
     }
 
 }
-
+@section Styles {
+    <link href="~/css/details.css" rel="stylesheet" />
+}
 <h1>Detalles</h1>
 <div class="container">
     <div class="col-sm-4">
