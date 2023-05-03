@@ -11320,11 +11320,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\appPetech9\\appPetech\\appPetech.csproj",
+      "projectUniqueName": "D:\\appPetech10\\appPetech\\appPetech.csproj",
       "projectName": "appPetech",
-      "projectPath": "D:\\appPetech9\\appPetech\\appPetech.csproj",
+      "projectPath": "D:\\appPetech10\\appPetech\\appPetech.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\appPetech9\\appPetech\\obj\\",
+      "outputPath": "D:\\appPetech10\\appPetech\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"

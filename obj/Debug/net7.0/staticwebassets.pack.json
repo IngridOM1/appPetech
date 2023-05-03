@@ -1,435 +1,435 @@
 {
   "Files": [
     {
-      "Id": "D:\\appPetech9\\appPetech\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\appPetech.bundle.scp.css",
+      "Id": "D:\\appPetech10\\appPetech\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\appPetech.bundle.scp.css",
       "PackagePath": "staticwebassets\\appPetech.bundle.scp.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\css\\bienestar.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\css\\bienestar.css",
       "PackagePath": "staticwebassets\\css\\bienestar.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\css\\cart.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\css\\cart.css",
       "PackagePath": "staticwebassets\\css\\cart.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\css\\catalogo.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\css\\catalogo.css",
       "PackagePath": "staticwebassets\\css\\catalogo.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\css\\contacto.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\css\\contacto.css",
       "PackagePath": "staticwebassets\\css\\contacto.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\css\\details.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\css\\details.css",
       "PackagePath": "staticwebassets\\css\\details.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\css\\index.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\css\\site.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\favicon.ico",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\ArrowIcon.svg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\ArrowIcon.svg",
       "PackagePath": "staticwebassets\\imagenes\\ArrowIcon.svg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\PETECHLOGO.png",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\PETECHLOGO.png",
       "PackagePath": "staticwebassets\\imagenes\\PETECHLOGO.png"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\advertencia.png",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\advertencia.png",
       "PackagePath": "staticwebassets\\imagenes\\advertencia.png"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\aguahamster.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\aguahamster.jpg",
       "PackagePath": "staticwebassets\\imagenes\\aguahamster.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\aguatortugas.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\aguatortugas.jpg",
       "PackagePath": "staticwebassets\\imagenes\\aguatortugas.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\alimentohamster.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\alimentohamster.jpg",
       "PackagePath": "staticwebassets\\imagenes\\alimentohamster.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\arenagatos.png",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\arenagatos.png",
       "PackagePath": "staticwebassets\\imagenes\\arenagatos.png"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\blog_icon.svg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\blog_icon.svg",
       "PackagePath": "staticwebassets\\imagenes\\blog_icon.svg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\boxi.png",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\boxi.png",
       "PackagePath": "staticwebassets\\imagenes\\boxi.png"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\bravecto.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\bravecto.jpg",
       "PackagePath": "staticwebassets\\imagenes\\bravecto.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\camaperros.png",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\camaperros.png",
       "PackagePath": "staticwebassets\\imagenes\\camaperros.png"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\camaramascotas.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\camaramascotas.jpg",
       "PackagePath": "staticwebassets\\imagenes\\camaramascotas.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\cartIcon.svg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\cartIcon.svg",
       "PackagePath": "staticwebassets\\imagenes\\cartIcon.svg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\cepillofurbo.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\cepillofurbo.jpg",
       "PackagePath": "staticwebassets\\imagenes\\cepillofurbo.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\closeIcon.svg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\closeIcon.svg",
       "PackagePath": "staticwebassets\\imagenes\\closeIcon.svg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\collarin.jpeg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\collarin.jpeg",
       "PackagePath": "staticwebassets\\imagenes\\collarin.jpeg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\collaringatos.png",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\collaringatos.png",
       "PackagePath": "staticwebassets\\imagenes\\collaringatos.png"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\collarinperros.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\collarinperros.jpg",
       "PackagePath": "staticwebassets\\imagenes\\collarinperros.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\comederoautomatico.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\comederoautomatico.jpg",
       "PackagePath": "staticwebassets\\imagenes\\comederoautomatico.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\comederopetsafe.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\comederopetsafe.jpg",
       "PackagePath": "staticwebassets\\imagenes\\comederopetsafe.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\comedor.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\comedor.jpg",
       "PackagePath": "staticwebassets\\imagenes\\comedor.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\comidaconejos.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\comidaconejos.jpg",
       "PackagePath": "staticwebassets\\imagenes\\comidaconejos.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\gpsmascotas.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\gpsmascotas.jpg",
       "PackagePath": "staticwebassets\\imagenes\\gpsmascotas.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\haulahamster.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\haulahamster.jpg",
       "PackagePath": "staticwebassets\\imagenes\\haulahamster.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\henoalfalfa.png",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\henoalfalfa.png",
       "PackagePath": "staticwebassets\\imagenes\\henoalfalfa.png"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\jaulaconejos.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\jaulaconejos.jpg",
       "PackagePath": "staticwebassets\\imagenes\\jaulaconejos.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\juguetewicket.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\juguetewicket.jpg",
       "PackagePath": "staticwebassets\\imagenes\\juguetewicket.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\laberintoconejos.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\laberintoconejos.jpg",
       "PackagePath": "staticwebassets\\imagenes\\laberintoconejos.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\mapIcon.svg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\mapIcon.svg",
       "PackagePath": "staticwebassets\\imagenes\\mapIcon.svg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\monitor.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\monitor.jpg",
       "PackagePath": "staticwebassets\\imagenes\\monitor.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\nuestrasTiendas.jpg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\nuestrasTiendas.jpg",
       "PackagePath": "staticwebassets\\imagenes\\nuestrasTiendas.jpg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\nutricanadultos.png",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\nutricanadultos.png",
       "PackagePath": "staticwebassets\\imagenes\\nutricanadultos.png"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\phoneIcon.svg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\phoneIcon.svg",
       "PackagePath": "staticwebassets\\imagenes\\phoneIcon.svg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\portada1.png",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\portada1.png",
       "PackagePath": "staticwebassets\\imagenes\\portada1.png"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\portada2.png",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\portada2.png",
       "PackagePath": "staticwebassets\\imagenes\\portada2.png"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\portada3.png",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\portada3.png",
       "PackagePath": "staticwebassets\\imagenes\\portada3.png"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\prueba.png",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\prueba.png",
       "PackagePath": "staticwebassets\\imagenes\\prueba.png"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\search_icon.svg",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\search_icon.svg",
       "PackagePath": "staticwebassets\\imagenes\\search_icon.svg"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\imagenes\\snacksperros.png",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\imagenes\\snacksperros.png",
       "PackagePath": "staticwebassets\\imagenes\\snacksperros.png"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\js\\PopUp.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\js\\PopUp.js",
       "PackagePath": "staticwebassets\\js\\PopUp.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\js\\index.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\js\\index.js",
       "PackagePath": "staticwebassets\\js\\index.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\js\\site.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\appPetech10\\appPetech\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

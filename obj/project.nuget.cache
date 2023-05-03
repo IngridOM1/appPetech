@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g17droG5yHUckmPRQ4yOjlwtouxxIjDzgXuwbLSCD2kBycShJ5zJlfekSqq5z1MqeNkDZapE28jyeJUTeH5eUQ==",
+  "dgSpecHash": "rLr2C2qRnGrE0N/FniXiWNvUP1OPQK+wESslqKjn0CYRxWdkEWXMMcYOSHvmKTLg0lmmVJSIb2gxgl/+Dw1uPw==",
   "success": true,
-  "projectFilePath": "D:\\appPetech9\\appPetech\\appPetech.csproj",
+  "projectFilePath": "D:\\appPetech10\\appPetech\\appPetech.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
