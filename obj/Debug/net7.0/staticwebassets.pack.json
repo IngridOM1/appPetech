@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\css\\contacto.css"
     },
     {
+      "Id": "D:\\appPetech9\\appPetech\\wwwroot\\css\\details.css",
+      "PackagePath": "staticwebassets\\css\\details.css"
+    },
+    {
       "Id": "D:\\appPetech9\\appPetech\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
