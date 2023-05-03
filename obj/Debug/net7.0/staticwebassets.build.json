@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+C5ebGSjyBZWEfj9LhjCfUskWAAFv2QMRgQi64NchSU=",
+  "Hash": "tAI8vg5s+Sd3jeBqFZq+OG6NO7ztyvwAPf1d1VqGKo8=",
   "Source": "appPetech",
   "BasePath": "_content/appPetech",
   "Mode": "Default",
@@ -1171,6 +1171,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "D:\\appPetech11\\appPetech\\wwwroot\\css\\login.css",
+      "SourceId": "appPetech",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\appPetech11\\appPetech\\wwwroot\\",
+      "BasePath": "_content/appPetech",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
       "Identity": "D:\\appPetech11\\appPetech\\wwwroot\\css\\site.css",
