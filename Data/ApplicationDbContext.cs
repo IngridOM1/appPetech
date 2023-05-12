@@ -16,4 +16,7 @@ public class ApplicationDbContext : IdentityDbContext
         public DbSet<Producto> DataProductos { get; set; }
 
         public DbSet<Cart> DataCart {get;set;}
+
+        
+
 }
