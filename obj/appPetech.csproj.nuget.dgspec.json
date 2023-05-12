@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\appPetech12\\appPetech\\appPetech.csproj": {}
+    "C:\\Users\\51941\\Desktop\\app_pettech2\\appPetech\\appPetech.csproj": {}
   },
   "projects": {
-    "D:\\appPetech12\\appPetech\\appPetech.csproj": {
+    "C:\\Users\\51941\\Desktop\\app_pettech2\\appPetech\\appPetech.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\appPetech12\\appPetech\\appPetech.csproj",
+        "projectUniqueName": "C:\\Users\\51941\\Desktop\\app_pettech2\\appPetech\\appPetech.csproj",
         "projectName": "appPetech",
-        "projectPath": "D:\\appPetech12\\appPetech\\appPetech.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\appPetech12\\appPetech\\obj\\",
+        "projectPath": "C:\\Users\\51941\\Desktop\\app_pettech2\\appPetech\\appPetech.csproj",
+        "packagesPath": "C:\\Users\\51941\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\51941\\Desktop\\app_pettech2\\appPetech\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\51941\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
