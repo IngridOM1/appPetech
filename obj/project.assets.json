@@ -11320,11 +11320,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech19\\apppetech\\appPetech.csproj",
+      "projectUniqueName": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech20\\appPetech\\appPetech.csproj",
       "projectName": "appPetech",
-      "projectPath": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech19\\apppetech\\appPetech.csproj",
+      "projectPath": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech20\\appPetech\\appPetech.csproj",
       "packagesPath": "C:\\Users\\INGRID\\.nuget\\packages\\",
-      "outputPath": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech19\\apppetech\\obj\\",
+      "outputPath": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech20\\appPetech\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\INGRID\\AppData\\Roaming\\NuGet\\NuGet.Config"
