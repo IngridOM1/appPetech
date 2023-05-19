@@ -12,7 +12,7 @@ using System.Dynamic;
 using appPetech.Models;
 
 
-namespace appfunko.Controllers
+namespace appPetech.Controllers
 {
     public class CartController : Controller
     {
@@ -55,6 +55,68 @@ namespace appfunko.Controllers
             //return View(carrito);
             return View(model);
         }
+        
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var itemcart = await _dbcontext.DataCart.FindAsync(id);
+            if (itemcart == null)
+            {
+                return NotFound();
+            }
+            return View(itemcart);
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Cantidad,Precio,UserID")] Cart cart)
+        {
+            if (id != cart.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _dbcontext.Update(cart);
+                    await _dbcontext.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!_dbcontext.DataCart.Any(e => e.Id == id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(cart);
+        }
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var cart = await _dbcontext.DataCart.FindAsync(id);
+            _dbcontext.DataCart.Remove(cart);
+            await _dbcontext.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }        
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

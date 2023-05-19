@@ -11315,19 +11315,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\51941\\.nuget\\packages\\": {}
+    "C:\\Users\\INGRID\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\51941\\Desktop\\app_pettech2\\appPetech\\appPetech.csproj",
+      "projectUniqueName": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech1\\appPetech\\appPetech.csproj",
       "projectName": "appPetech",
-      "projectPath": "C:\\Users\\51941\\Desktop\\app_pettech2\\appPetech\\appPetech.csproj",
-      "packagesPath": "C:\\Users\\51941\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\51941\\Desktop\\app_pettech2\\appPetech\\obj\\",
+      "projectPath": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech1\\appPetech\\appPetech.csproj",
+      "packagesPath": "C:\\Users\\INGRID\\.nuget\\packages\\",
+      "outputPath": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech1\\appPetech\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\51941\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\INGRID\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
