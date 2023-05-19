@@ -18755,6 +18755,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech19\\appPetech\\Views\\Pedido\\Index.cshtml",
+      "TargetPath": "Views\\Pedido\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech19\\appPetech\\Views\\Catalogo\\Details.cshtml",
       "TargetPath": "Views\\Catalogo\\Details.cshtml",
       "FileKind": "mvc"
@@ -18767,6 +18772,11 @@
     {
       "FilePath": "c:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech19\\appPetech\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech19\\appPetech\\Views\\Shared\\_MenuAdminPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_MenuAdminPartial.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -11,9 +11,6 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
 
 
-
-
-
     @await RenderSectionAsync("Styles", required: false)
 </head>
 <body>
@@ -46,11 +43,13 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Contacto" asp-action="Index"><span style="color: white;">CONTACTO</span></a>
                         </li> 
+                        
                     </div>
-
+                    
                     <div><partial name="_LoginPartial" class="authSection" /></div>
 
                 </div>
+                
             </div>
         </nav>
     </header>
