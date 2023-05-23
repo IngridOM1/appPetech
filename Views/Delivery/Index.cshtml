@@ -1,46 +1,63 @@
-@model IEnumerable<appPetech.Models.Producto>
+@model IEnumerable<appPetech.Models.Delivery>
 
 @{
     ViewData["Title"] = "Gestion de delivery";
 }
 
-<h1>Gestion de productos</h1>
+<h1>Gestion de deliverys</h1>
 
 <p>
-    <a class="btn btn-primary" asp-action="Create">Nuevo producto</a>
+    <a class="btn btn-primary" asp-action="Create">Nuevo delivery</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                Producto
+                Nombre
             </th>
             <th>
-                Descripcion
+                ApellidoPaterno
             </th>
             <th>
-                Precio
+                ApellidoMaterno
             </th>
             <th>
-                Imagen
+                Dni
             </th>
-            <th></th>
+            <th>
+                Celular
+            </th>
+                        <th>
+                Vehiculo
+            </th>
+            <th>
+                Placa
+            </th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Name)
+                @Html.DisplayFor(modelItem => item.Nombre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Descripcion)
+                @Html.DisplayFor(modelItem => item.ApellidoPaterno)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Precio)
+                @Html.DisplayFor(modelItem => item.ApellidoMaterno)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ImageName)
+                @Html.DisplayFor(modelItem => item.Dni)
+            </td>
+                        <td>
+                @Html.DisplayFor(modelItem => item.Celular)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vehiculo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Placa)
             </td>
             <td>
                 <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> 

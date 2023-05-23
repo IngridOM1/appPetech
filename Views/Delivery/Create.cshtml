@@ -1,12 +1,12 @@
-@model appPetech.Models.Producto
+@model appPetech.Models.Delivery
 
 @{
     ViewData["Title"] = "Create";
 }
 
-<h1>Registrar producto</h1>
+<h1>Registrar delivery</h1>
 
-<h4>Producto</h4>
+<h4>Delivery</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -14,23 +14,38 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label class="control-label">Nombre</label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label class="control-label">Descripcion</label>
-                <input asp-for="Descripcion" class="form-control" />
-                <span asp-validation-for="Descripcion" class="text-danger"></span>
+                <label class="control-label">ApellidoPaterno</label>
+                <input asp-for="ApellidoPaterno" class="form-control" />
+                <span asp-validation-for="ApellidoPaterno" class="text-danger"></span>
+            </div>
+                      <div class="form-group">
+                <label class="control-label">ApellidoMaterno</label>
+                <input asp-for="ApellidoMaterno" class="form-control" />
+                <span asp-validation-for="ApellidoMaterno" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label class="control-label">Precio</label>
-                <input asp-for="Precio" class="form-control" />
-                <span asp-validation-for="Precio" class="text-danger"></span>
+                <label class="control-label">Dni</label>
+                <input asp-for="Dni" class="form-control" />
+                <span asp-validation-for="Dni" class="text-danger"></span>
+            </div>
+                      <div class="form-group">
+                <label class="control-label">Celular</label>
+                <input asp-for="Celular" class="form-control" />
+                <span asp-validation-for="Celular" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ImageName" class="control-label"></label>
-                <input asp-for="ImageName" class="form-control" />
-                <span asp-validation-for="ImageName" class="text-danger"></span>
+                <label class="control-label">Vehiculo</label>
+                <input asp-for="Vehiculo" class="form-control" />
+                <span asp-validation-for="Vehiculo" class="text-danger"></span>
+            </div>
+                        <div class="form-group">
+                <label class="control-label">Placa</label>
+                <input asp-for="Placa" class="form-control" />
+                <span asp-validation-for="Placa" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Guardar" class="btn btn-primary my-3" />

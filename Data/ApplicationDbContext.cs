@@ -21,4 +21,6 @@ public class ApplicationDbContext : IdentityDbContext
 
         public DbSet<DetallePedido> DataDetallePedido {get;set;}
 
+         public DbSet<Delivery> DataDelivery {get;set;}
+
 }
