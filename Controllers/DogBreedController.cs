@@ -22,21 +22,33 @@ namespace appPetech.Controllers
             _logger = logger;
             _dogBreed = dogBreed;
         }
-        public async Task<IActionResult> Index()
+    
+    [HttpGet("")]
+    public async Task<IActionResult> Index()
+    {
+        var dataPerros = await FetchApiData();
+        return View("~/Views/DogBreed/Index.cshtml", dataPerros);
+        //return View("~/Views/DogBreed/Index.cshtml");
+    }
+    
+    
+        /*public async Task<IActionResult> Index()
         {
-            var dataPerros = await FetchApiData();
-            ViewData["data"] = dataPerros;
-            return View("~/Views/DogBreed/Index.cshtml");
-        }
-
-        [HttpGet]
+            return View();
+            //var dataPerros = await FetchApiData();
+            //ViewData["data"] = dataPerros;
+            //return View("~/Views/DogBreed/Index.cshtml",dataPerros);
+        }*/
+        
+        [HttpGet("FetchApi")]
         public async Task<List<RazaPerros>> FetchApiData(){
             var apiData = await _dogBreed.GetDogBreedsAsync();
             return apiData;
         }
-
+        
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        [HttpGet("error")]
         public IActionResult Error()
         {
             return View("Error!");

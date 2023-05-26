@@ -1,14 +1,14 @@
-@model IEnumerable<appPetech.Models.RazaPerros>
+@model List<appPetech.Models.RazaPerros>
 
 
-<section class="indexSection">
-    <br>
-                <h2 class="indexSection_h2" >LO ÚLTIMO DE NUESTRA TIENDA!!!</h2>
-                <hr class="indexSection_h3"></hr>
+<h1>Listado de Perros</h1>
 
-                <p>
-                    @ViewData["data"]
-                </p>
-             
-                </div>
-<section>
+@foreach (var perro in Model)
+{
+    <div>
+        <h3>@perro.Breed</h3>
+        <p>Origen: @perro.Origin</p>
+        <p>URL: <a href="@perro.Url">@perro.Url</a></p>
+        <img src="@perro.Img" alt="Imagen de @perro.Breed" width="200" height="200" />
+    </div>
+}
