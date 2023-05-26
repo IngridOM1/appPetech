@@ -1,15 +1,36 @@
 @model appPetech.Models.Delivery
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 @{
-    ViewData["Title"] = "Create";
-    
+    ViewData["Title"] = "Catalogo";
+
+    if (SignInManager.IsSignedIn(User))
+    {
+        Layout = "~/Views/Shared/_LayoutLogued.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml"; // El layout predeterminado
+    }
 }
 
-<h1>Registrar delivery</h1>
+<style>
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+</style>
 
-<h4>Delivery</h4>
+<h1 class="text-center">Registrar delivery</h1>
+
+<h4 class="text-center">Delivery</h4>
 <hr />
-<div class="row">
+
+<div class="form-container">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -23,7 +44,7 @@
                 <input asp-for="ApellidoPaterno" class="form-control" />
                 <span asp-validation-for="ApellidoPaterno" class="text-danger"></span>
             </div>
-                      <div class="form-group">
+            <div class="form-group">
                 <label class="control-label">ApellidoMaterno</label>
                 <input asp-for="ApellidoMaterno" class="form-control" />
                 <span asp-validation-for="ApellidoMaterno" class="text-danger"></span>
@@ -33,7 +54,7 @@
                 <input asp-for="Dni" class="form-control" />
                 <span asp-validation-for="Dni" class="text-danger"></span>
             </div>
-                      <div class="form-group">
+            <div class="form-group">
                 <label class="control-label">Celular</label>
                 <input asp-for="Celular" class="form-control" />
                 <span asp-validation-for="Celular" class="text-danger"></span>
@@ -43,7 +64,7 @@
                 <input asp-for="Vehiculo" class="form-control" />
                 <span asp-validation-for="Vehiculo" class="text-danger"></span>
             </div>
-                        <div class="form-group">
+            <div class="form-group">
                 <label class="control-label">Placa</label>
                 <input asp-for="Placa" class="form-control" />
                 <span asp-validation-for="Placa" class="text-danger"></span>
@@ -55,8 +76,8 @@
     </div>
 </div>
 
-<div>
-    <a class="btn btn-ligth" asp-action="Index"> 	&laquo;Volver</a>
+<div class="text-center">
+    <a class="btn btn-light" asp-action="Index">&laquo; Volver</a>
 </div>
 
 @section Scripts {

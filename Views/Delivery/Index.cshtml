@@ -1,70 +1,85 @@
 @model IEnumerable<appPetech.Models.Delivery>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 @{
-    ViewData["Title"] = "Gestion de delivery";
+    ViewData["Title"] = "Catalogo";
+
+    if (SignInManager.IsSignedIn(User))
+    {
+        Layout = "~/Views/Shared/_LayoutLogued.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml"; // El layout predeterminado
+    }
 }
 
-<h1>Gestion de deliverys</h1>
+<div class="text-center">
+    <h1>Gestión de deliverys</h1>
 
-<p>
-    <a class="btn btn-primary" asp-action="Create">Nuevo delivery</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                Nombre
-            </th>
-            <th>
-                ApellidoPaterno
-            </th>
-            <th>
-                ApellidoMaterno
-            </th>
-            <th>
-                Dni
-            </th>
-            <th>
-                Celular
-            </th>
-                        <th>
-                Vehiculo
-            </th>
-            <th>
-                Placa
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ApellidoPaterno)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ApellidoMaterno)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Dni)
-            </td>
-                        <td>
-                @Html.DisplayFor(modelItem => item.Celular)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Vehiculo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Placa)
-            </td>
-            <td>
-                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> 
-                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalle</a> 
-                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <p>
+        <a class="btn btn-primary" asp-action="Create">Nuevo delivery</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Nombre
+                </th>
+                <th>
+                    ApellidoPaterno
+                </th>
+                <th>
+                    ApellidoMaterno
+                </th>
+                <th>
+                    Dni
+                </th>
+                <th>
+                    Celular
+                </th>
+                <th>
+                    Vehiculo
+                </th>
+                <th>
+                    Placa
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ApellidoPaterno)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ApellidoMaterno)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Dni)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Celular)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Vehiculo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Placa)
+                    </td>
+                    <td>
+                        <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                        <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalle</a>
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

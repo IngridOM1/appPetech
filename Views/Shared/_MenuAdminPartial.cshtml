@@ -11,10 +11,8 @@
 
     @if(roles.Contains("admin") ){    
         <li class="nav-item">
-            <a class="nav-link text-dark bi bi-cart" asp-area="" asp-controller="Pedido" asp-action="Index">Pedidos</a>
-        </li>
-
-        
+                      <a class="nav-link text-dark" asp-area="" asp-controller="Pedido" asp-action="Index"><span style="color: white;">Pedido</span></a>
+                        </li>
                      <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Delivery" asp-action="Index"><span style="color: white;">Delivery</span></a>
                         </li> 
