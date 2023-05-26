@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using appPetech.Data;
+using appPetech.Integration;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
 using StackExchange.Redis;
 
@@ -17,6 +18,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<DogBreedIntegration>();
 
 
 builder.Services.AddStackExchangeRedisCache(options =>

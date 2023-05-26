@@ -1,0 +1,14 @@
+@model List<appPetech.Models.RazaPerros>
+
+
+<h1>Listado de Perros</h1>
+
+@foreach (var perro in Model)
+{
+    <div>
+        <h3>@perro.Breed</h3>
+        <p>Origen: @perro.Origin</p>
+        <p>URL: <a href="@perro.Url">@perro.Url</a></p>
+        <img src="@perro.Img" alt="Imagen de @perro.Breed" width="200" height="200" />
+    </div>
+}
