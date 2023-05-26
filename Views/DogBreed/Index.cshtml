@@ -1,50 +1,73 @@
 @model List<appPetech.Models.RazaPerros>
 
 <style>
-
-    .Title_h1{
+    .Title_h1 {
         margin: 20px auto;
         text-align: center;
     }
 
-    .ContainerDog{
+    .ContainerDog {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
         margin: 20px auto;
         width: 90%;
-        gap: 20px;
-        /* flex-flow: column; */
-        align-items: center;
-        flex-flow: wrap;
-        justify-content: center;
     }
 
-    .ContainerDog_card{
+    .ContainerDog_card {
         width: 350px;
         border: solid #FFD65B 2px;
         border-radius: 10px;
         padding: 20px;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
         display: flex;
-        flex-flow: column;
+        flex-direction: column;
         gap: 20px;
         align-items: center;
     }
 
-    .card_url{
+    .card_url {
         text-decoration: none;
         width: 100%;
         padding: 10px;
         text-align: center;
         background-color: #FFD65B;
         color: white;
-
     }
 
+    .SearchForm {
+        text-align: center;
+        margin-bottom: 20px;
+    }
 
+    .SearchForm input[type="text"] {
+        padding: 10px;
+        width: 300px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        outline: none;
+    }
+
+    .SearchForm input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #FFD65B;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+    }
 </style>
 
-
 <h1 class="Title_h1">Conoce más sobre las distintas razas que existen!</h1>
+
+<div class="SearchForm">
+    <form method="get" action="@Url.Action("Index")">
+        <input type="text" name="search" placeholder="Buscar por raza">
+        <input type="submit" value="Buscar">
+    </form>
+</div>
+
 <section class="ContainerDog">
     @foreach (var perro in Model)
     {
@@ -52,7 +75,7 @@
             <h3>@perro.Breed</h3>
             <p>Origen: @perro.Origin</p>
             <img src="@perro.Img" alt="Imagen de @perro.Breed" width="200" height="200" />
-            <a class="card_url" href="@perro.Url">Mas Informacion</a>
+            <a class="card_url" href="@perro.Url">Más Información</a>
         </div>
-    }
+    }
 </section>

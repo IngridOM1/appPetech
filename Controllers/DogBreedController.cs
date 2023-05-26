@@ -16,36 +16,32 @@ namespace appPetech.Controllers
         private readonly ILogger<DogBreedController> _logger;
         private readonly DogBreedIntegration _dogBreed;
 
-
-        public DogBreedController(ILogger<DogBreedController> logger,DogBreedIntegration dogBreed)
+        public DogBreedController(ILogger<DogBreedController> logger, DogBreedIntegration dogBreed)
         {
             _logger = logger;
             _dogBreed = dogBreed;
         }
-    
-    [HttpGet("")]
-    public async Task<IActionResult> Index()
-    {
-        var dataPerros = await FetchApiData();
-        return View("~/Views/DogBreed/Index.cshtml", dataPerros);
-        //return View("~/Views/DogBreed/Index.cshtml");
-    }
-    
-    
-        /*public async Task<IActionResult> Index()
+
+        [HttpGet("")]
+        public async Task<IActionResult> Index(string search)
         {
-            return View();
-            //var dataPerros = await FetchApiData();
-            //ViewData["data"] = dataPerros;
-            //return View("~/Views/DogBreed/Index.cshtml",dataPerros);
-        }*/
-        
+            var dataPerros = await FetchApiData();
+
+            if (!string.IsNullOrEmpty(search))
+            {
+                dataPerros = dataPerros.Where(p => p.Breed.ToLower().Contains(search.ToLower())).ToList();
+            }
+
+            ViewData["Search"] = search;
+            return View("~/Views/DogBreed/Index.cshtml", dataPerros);
+        }
+
         [HttpGet("FetchApi")]
-        public async Task<List<RazaPerros>> FetchApiData(){
+        public async Task<List<RazaPerros>> FetchApiData()
+        {
             var apiData = await _dogBreed.GetDogBreedsAsync();
             return apiData;
         }
-        
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         [HttpGet("error")]
