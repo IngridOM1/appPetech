@@ -1,38 +1,39 @@
+// Obtener elementos del carrusel
 const carouselContainer = document.querySelector('.carousel__container');
 const carouselItems = document.querySelectorAll('.carousel__item');
-const carouselDots = document.querySelectorAll('.carousel__dot');
-const totalItems = carouselItems.length;
-let slide = 0;
+const carouselDots = document.querySelector('.carousel__dots');
 
-function moveToSlide(index) {
-  carouselContainer.style.transform = `translateX(-${index * 100}%)`;
-  slide = index;
-
-  // actualiza la clase del punto activo
-  for (let i = 0; i < carouselDots.length; i++) {
-    if (i === index) {
-      carouselDots[i].classList.add('carousel__dot--active');
-    } else {
-      carouselDots[i].classList.remove('carousel__dot--active');
-    }
+// Añadir eventos a los puntos del carrusel
+carouselDots.addEventListener('click', (event) => {
+  if (event.target.classList.contains('carousel__dot')) {
+    const targetSlide = event.target.getAttribute('data-slide');
+    showSlide(targetSlide);
   }
+});
+
+// Mostrar el slide seleccionado
+function showSlide(slideIndex) {
+  const slideWidth = carouselItems[0].offsetWidth;
+  const translateX = slideWidth * slideIndex * -1;
+  carouselContainer.style.transform = `translateX(${translateX}px)`;
+
+  // Marcar el punto activo
+  carouselDots.querySelectorAll('.carousel__dot').forEach((dot) => {
+    dot.classList.remove('carousel__dot--active');
+  });
+  carouselDots.querySelector(`[data-slide="${slideIndex}"]`).classList.add('carousel__dot--active');
 }
 
-function nextSlide() {
-  if (slide === totalItems - 1) {
-    moveToSlide(0);
-  } else {
-    moveToSlide(slide + 1);
-  }
+// Iniciar carrusel
+function startCarousel() {
+  let slideIndex = 0;
+  const totalSlides = carouselItems.length;
+
+  setInterval(() => {
+    slideIndex = (slideIndex + 1) % totalSlides;
+    showSlide(slideIndex);
+  }, 2000);
 }
 
-// establece un intervalo para cambiar de diapositiva automáticamente
-setInterval(nextSlide, 5000);
-
-// añade control de clic para los puntos
-for (let i = 0; i < carouselDots.length; i++) {
-  carouselDots[i].addEventListener('click', () => moveToSlide(i));
-}
-
-// mueve a la primera diapositiva al cargar la página
-moveToSlide(0);
+// Iniciar el carrusel cuando el contenido esté cargado
+window.addEventListener('DOMContentLoaded', startCarousel);

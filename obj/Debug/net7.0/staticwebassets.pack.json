@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech23\\appPetech\\wwwroot\\css\\paginaPrincipal.css",
+      "PackagePath": "staticwebassets\\css\\paginaPrincipal.css"
+    },
+    {
       "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech23\\appPetech\\wwwroot\\css\\register.css",
       "PackagePath": "staticwebassets\\css\\register.css"
     },
@@ -161,6 +165,10 @@
       "PackagePath": "staticwebassets\\imagenes\\login.png"
     },
     {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech23\\appPetech\\wwwroot\\imagenes\\logoPetech.png",
+      "PackagePath": "staticwebassets\\imagenes\\logoPetech.png"
+    },
+    {
       "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech23\\appPetech\\wwwroot\\imagenes\\mapIcon.svg",
       "PackagePath": "staticwebassets\\imagenes\\mapIcon.svg"
     },
@@ -193,12 +201,36 @@
       "PackagePath": "staticwebassets\\imagenes\\portada3.png"
     },
     {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech23\\appPetech\\wwwroot\\imagenes\\portada4.png",
+      "PackagePath": "staticwebassets\\imagenes\\portada4.png"
+    },
+    {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech23\\appPetech\\wwwroot\\imagenes\\portada5.png",
+      "PackagePath": "staticwebassets\\imagenes\\portada5.png"
+    },
+    {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech23\\appPetech\\wwwroot\\imagenes\\portada6.png",
+      "PackagePath": "staticwebassets\\imagenes\\portada6.png"
+    },
+    {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech23\\appPetech\\wwwroot\\imagenes\\portada7.png",
+      "PackagePath": "staticwebassets\\imagenes\\portada7.png"
+    },
+    {
       "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech23\\appPetech\\wwwroot\\imagenes\\prueba.png",
       "PackagePath": "staticwebassets\\imagenes\\prueba.png"
     },
     {
       "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech23\\appPetech\\wwwroot\\imagenes\\prueba2.png",
       "PackagePath": "staticwebassets\\imagenes\\prueba2.png"
+    },
+    {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech23\\appPetech\\wwwroot\\imagenes\\prueba3.png",
+      "PackagePath": "staticwebassets\\imagenes\\prueba3.png"
+    },
+    {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech23\\appPetech\\wwwroot\\imagenes\\prueba4.png",
+      "PackagePath": "staticwebassets\\imagenes\\prueba4.png"
     },
     {
       "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech23\\appPetech\\wwwroot\\imagenes\\register.png",

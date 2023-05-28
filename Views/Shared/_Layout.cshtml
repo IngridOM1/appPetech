@@ -7,84 +7,96 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/appPetech.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-xp5oHwoq2tf2B4ahxI3OLrWJrl5GKfrTbpZ7qOLj91Bm4Q0FAK0fTLMOh1GsBi8q" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-
 
     @await RenderSectionAsync("Styles", required: false)
 </head>
 <body>
- <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom navBar">
+    <header class="header-background">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark" style="background-color: black; border-bottom: 1px solid black;">
             <div class="container-fluid navBar_handler">
-                <a class="navbar-brand navBar_logoHandler" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img class="navBar_img" src="~/imagenes/PETECHLOGO.png"/>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between handler_linksContainer">
-                    <div class="navbar-nav flex-grow-1 navBar_navItemContainer">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
-                                <span class="material-symbols-outlined">home</span></a>
-                        </li>
-
-                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Nutricion">
-                                <span class="material-symbols-outlined">web</span> 
-                            </a>
-                        </li>
-
-                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Promociones" asp-action="Promos"><span style="color: white;">PROMOCIONES</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Contacto" asp-action="Index"><span style="color: white;">CONTACTO</span></a>
-                        </li> 
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="DogBreed" asp-action="Index"><span style="color: white;">API</span></a>
-                        </li>       
-                    </div>
-                    
-                    <div><partial name="_LoginPartial" class="authSection" /></div>
-
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link welcome-text" style="color: white">
+                            <i class="fas fa-heart"></i> Bienvenido a Petch! Síguenos en nuestras redes 
+                        </a>
+                    </li>
+                </ul>
+                <div class="authSection-wrapper">
+                    <partial name="_LoginPartial" class="authSection" />
                 </div>
-                
             </div>
         </nav>
     </header>
+
+
+<nav class="navbar navbar-expand-sm" style="background-color: white; border-bottom: 1px solid white;">
+    <div class="container-fluid">
+        <a class="navbar-brand navBar_logoHandler" asp-area="" asp-controller="Home" asp-action="Index">
+            <img class="navBar_img" src="~/imagenes/logoPetech.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end handler_linksContainer">
+            <div class="navbar-nav flex-grow-0 navBar_navItemContainer" style="display: flex; justify-content: center; padding: 0 70px;">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                        <span style="color: #FFDE59; font-weight: bold;">HOME</span>
+                        </a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Nutricion"><span style="color: black;">BLOG</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Promociones" asp-action="Promos"><span style="color: black;">PROMOCIONES</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Contacto" asp-action="Index"><span style="color: black;">CONTACTO</span></a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="DogBreed" asp-action="Index"><span style="color:black;">API</span></a>
+                </li>       
+            </div>    
+        </div>
+    </div>
+</nav>
+
     <main role="main">
-                    <div id='sideBar-open' class="openButton">
-                <img class="openButton_img" src="/imagenes/ArrowIcon.svg">
+        <div id='sideBar-open' class="openButton">
+            <img class="openButton_img" src="/imagenes/ArrowIcon.svg">
+        </div>
+        <div id="sidebar" class='sideBar'>
+            <div class="sideBar_header">
+                <h1>Opciones</h1>
+                <img id="sidebar-close" class="sideBar_closeIcon" src="/imagenes/closeIcon.svg">
             </div>
-            <div id="sidebar" class='sideBar'>
-                <div class="sideBar_header">
-                    <h1>Opciones</h1>
-                    <img id="sidebar-close" class="sideBar_closeIcon" src="/imagenes/closeIcon.svg">
-                </div>
-                <div class="sideBar_options">
-                    <img class="options_cartIcon" src="/imagenes/cartIcon.svg">
-                    <label>Carrito</label>
-                </div>
-                <div class="sideBar_options">
-                    <img class="options_mapIcon" src="/imagenes/mapIcon.svg">
-                    <label>Tiendas</label>
-                </div>
-                <div class="sideBar_options">
-                    <img class="options_phoneIcon" src="/imagenes/phoneIcon.svg">
-                    <label>Contactenos</label>
-                </div>
+            <div class="sideBar_options">
+                <img class="options_cartIcon" src="/imagenes/cartIcon.svg">
+                <label>Carrito</label>
             </div>
-            @RenderBody()
+            <div class="sideBar_options">
+                <img class="options_mapIcon" src="/imagenes/mapIcon.svg">
+                <label>Tiendas</label>
+            </div>
+            <div class="sideBar_options">
+                <img class="options_phoneIcon" src="/imagenes/phoneIcon.svg">
+                <label>Contactenos</label>
+            </div>
+        </div>
+
+        @RenderBody()
     </main>
 
     <script src="/js/PopUp.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/bootstrap-icons.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha384-7oRbI5+zK+QFA0T9DxWwKz5g8EHGb5kRVjGfl/wWddE2LaoJFDRrdb+58KUf+dwW" crossorigin="anonymous"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
-    
 </body>
 </html>
