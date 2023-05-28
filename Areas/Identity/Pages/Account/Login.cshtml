@@ -9,41 +9,27 @@
     <link href="~/css/login.css" rel="stylesheet" />
 }
 <br>
-
-<div class="container" id="container">
-	<div class="form-container sign-in-container">
-		<form id="account" method="post">
-			<h1>INICIAR SESIÓN</h1>
-			<div class="social-container">
-				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-			</div>
-			<span>or use your account</span>
-			<input asp-for="Input.Email" class="form-label" placeholder="Name"></label>
-			<input asp-for="Input.Password" class="form-label" placeholder="Password"></label>
-
-			<button id="login-submit" type="submit" >Log in</button>
-            <br>
-            <div>
-                    
-                    <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
-                    <br>
-                    <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
-                    <br>
-                    <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a>
-                    
-                </div>
-		</form>
-	</div>
-	<div class="overlay-container">
-		<div class="overlay">
-			<div class="overlay-panel overlay-right">
-			</div>
-		</div>
-	</div>
+<form id="account" method="post">
+<div class="container">
+    <h1>INICIAR SESIÓN</h1>
+    <div class="social-container">
+        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <span>Nos alegra verte aqui de nuevo</span>
+    <input asp-for="Input.Email" class="form-label" placeholder="CORREO">
+    <input asp-for="Input.Password" class="form-label" placeholder="CONTRASEÑA">
+    <button id="login-submit" type="submit">Log in</button>
+    <div style="margin-top: 10px; text-align: center;">
+    <a id="forgot-password" asp-page="./ForgotPassword">Olvidaste tu contraseña?</a><br>
+    <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Si no tienes una cuenta... REGISTRATE</a><br>
+    <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Reenviar email de confirmación</a>
 </div>
 
+	
+</div>
+</form>
 
 
 @section Scripts {

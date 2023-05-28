@@ -30,42 +30,114 @@
   width: 100%;
 }
 
+
+
 .carousel {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .carousel__wrapper {
-    display: flex;
-  }
-  
-  .carousel__container {
-    display: flex;
-    transition: transform 0.3s ease-in-out;
-  }
-  
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel__wrapper {
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carousel__container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel__item {
+  flex: 0 0 100%;
+  height: auto;
+  width: 100%;
+}
+
+.carousel__dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.carousel__dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel__dot--active {
+  transform: scale(1.5);
+  background-color: #FFDE59;
+}
+
+@media (max-width: 768px) {
   .carousel__item {
-    width: 100%;
+    flex: 0 0 50%;
   }
-  
-  .carousel__dots {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+}
+
+@media (max-width: 576px) {
+  .carousel__item {
+    flex: 0 0 100%;
   }
-  
-  .carousel__dot {
-    width: 10px;
-    height: 10px;
-    margin: 0 5px;
-    border-radius: 50%;
-    background-color: #ccc;
-    cursor: pointer;
-  }
-  
-  .carousel__dot--active {
-    background-color: #555;
-  }
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-section {
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 0 0 200px;
+  text-align: center;
+  margin: 10px;
+  border: none;
+}
+.color-icon {
+  color: #FFDE59; /* Reemplaza "red" con el color deseado */
+}
+.icon-large {
+  font-size: 50px; /* Ajusta el tamaño del icono según tus preferencias */
+}
+.card-section {
+  padding: 30px; /* Ajusta el espacio interno según tus preferencias */
+}
+.card i {
+  font-size: 24px;
+}
+
+.card p {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
 
 
 .productComponentContainer_precio{
