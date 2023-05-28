@@ -2,7 +2,7 @@
 @using System.Collections.Generic;
 
 @{
-    ViewData["Title"] = "Carrito";
+    ViewData["Title"] = "MI CARRITO";
     IEnumerable<appPetech.Models.Cart> listItemsCarrito = new List<Cart>();
     listItemsCarrito = @Model.elementosCarrito;
     Decimal montoTotal = @Model.montoTotal;
@@ -12,33 +12,106 @@
     <link href="~/css/cart.css" rel="stylesheet" />
 }
 <section class="cartContainer">
-    <h1>@ViewData["Title"]</h1>
-    <p>Total S/. @montoTotal</p>
-    <a class="btn btn-primary" asp-controller="Pago" 
-    asp-action="Create" asp-route-monto="@montoTotal">Pagar</a>
+    
+<div class="table-container">
+        <center><h1><strong>@ViewData["Title"]</strong></h1></center>
+    <br>
 
-    <div class="product_list">
-        @foreach (Cart item in Model.elementosCarrito) {
-            <div style="display: flex;flex-flow: column;align-items: center;max-width: 530px;box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);" >
-                <div class="product_item">
-                    @if (item.Producto.ImageName != null)
+        <h3>Total S/. @montoTotal</h3>
+        <strong><a class="btn btn-pagar" asp-controller="Pago" asp-action="Create" asp-route-monto="@montoTotal">REALIZAR PAGO</a></strong>
+
+    <table class="cartTable"><br><br>
+        <thead>
+            <tr>
+                <th style="text-align: center;">IMAGEN DEL PRODUCTO</th>
+                <th style="text-align: center;">NOMBRE DEL PRODUCTO</th>
+                <th style="text-align: center;">CANTIDAD</th>
+                <th style="text-align: center;">PRECIO</th>
+                <th style="text-align: center;">TOTAL</th> <!-- Nueva columna para el total -->
+                <th style="text-align: center;">ACCIONES</th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (appPetech.Models.Cart item in listItemsCarrito)
+    {
+        <tr>
+            <td>
+                @if (item.Producto.ImageName != null)
+                {
+                    <center><img src="~/imagenes/@item.Producto.ImageName" alt="Imagen del producto" width="150" height="150" /></center>
+                }
+            </td>
+            <td><center>@Html.DisplayFor(modelItem => item.Producto.Name)</center></td>
+            
+            <td><center>@Html.DisplayFor(modelItem => item.Cantidad)</center></td>
+
+            <td><center>@Html.DisplayFor(modelItem => item.Precio)</center></td>
+            <td><center>@(item.Precio * item.Cantidad)</center></td>
+            <td><center>
+                <a asp-action="Edit" asp-route-id="@item.Id">
+                        <span class="material-symbols-outlined" style="color: rgb(22, 47, 187);">edit</span>
+                </a>
+                <a class="productLink" href="#" onclick="showDeleteConfirmation(@item.Id)">
+                    <span class="material-symbols-outlined" style="color: rgb(187, 22, 22);">
+                        delete
+                    </span>
+                </a>
+
+                <div class="overlay"></div>
+                <div class="productPopup">
+                    <div class="popupContent">
+                        <div class="productImage">
+                            @if (item.Producto.ImageName != null)
                             {
-                                <img class="productComponentContainer_img" src="~/imagenes/@item.Producto.ImageName " alt="width="150" height="150"/>
+                                <center><img src="~/imagenes/@item.Producto.ImageName" alt="Imagen del producto" width="150" height="150" /></center>
                             }
-                    <div class="product_information">
-                        <div class="product_name">@Html.DisplayFor(modelItem => item.Producto.Name)</div>
-                        <div class="product_price">Precio: S/@Html.DisplayFor(modelItem => item.Precio)</div>
-                        <div class="product_quantity">Cantidad: @Html.DisplayFor(modelItem => item.Cantidad)</div>
-                        <div class="product_actions">
-                            <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                            <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                        </div>
+                        <div class="productDetails">
+                            <h4><strong>¿Seguro que quieres eliminar?</strong></h4>
+                            <center><h6><strong>@Html.DisplayFor(modelItem => item.Producto.Name)</strong></h6></center>
+                            <h10>@Html.DisplayFor(modelItem => item.Producto.Descripcion)</h10>
+                            <center>
+                                <br>
+                                <div class="confirmationButtons">
+                                    <a id="deleteLink" class="btn btn-danger">Aceptar</a>
+                                </div>
+                            </center>
                         </div>
                     </div>
+                    <span class="closeButton">&times;</span>
                 </div>
-                <div style="background-color: #FFD65B;width: 100%;text-align: center;">
-                    Mas informacion
-                </div>
-            </div>
-        }
+            </center></td>
+        </tr>
+    }
+</tbody>
+
+    </table>
     </div>
 </section>
+
+@section Scripts {
+    <script>
+    function showDeleteConfirmation(itemId) {
+        var overlay = document.getElementsByClassName('overlay')[0];
+        var popup = document.getElementsByClassName('productPopup')[0];
+
+        // Mostrar el pop-up
+        overlay.classList.add('active');
+        popup.classList.add('active');
+
+        // Configurar el enlace "Aceptar" del pop-up para redirigir a la acción de eliminación
+        var deleteLink = document.getElementById('deleteLink');
+        deleteLink.href = "/Cart/Delete?id=" + itemId;
+    }
+
+    var overlay = document.getElementsByClassName('overlay')[0];
+    var closeButton = document.getElementsByClassName('closeButton')[0];
+
+    closeButton.addEventListener('click', function () {
+        overlay.classList.remove('active');
+        var popup = document.getElementsByClassName('productPopup')[0];
+        popup.classList.remove('active');
+    });
+</script>
+
+}

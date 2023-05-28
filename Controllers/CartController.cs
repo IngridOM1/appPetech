@@ -33,6 +33,7 @@ namespace appPetech.Controllers
 
         public IActionResult Index()
         {
+            
             var userIDSession = _userManager.GetUserName(User);
 
             //SELECT * FROM Proforma p,Producto pr WHERE p.productId=pr.Id And p.UserId=? And p.status='PENDIENTE' 
