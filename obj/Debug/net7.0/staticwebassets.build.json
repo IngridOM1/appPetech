@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uMLev+OoDEfA3+oUdDLxMdlMpqW3WJFIPNZBIBr3lwQ=",
+  "Hash": "LJ+kvEaoc8YUYweBLKK1lYX76FYYPGTLCHd7VP3hOB8=",
   "Source": "appPetech",
   "BasePath": "_content/appPetech",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "appPetech\\wwwroot",
       "Source": "appPetech",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\obj\\Debug\\net7.0\\scopedcss\\bundle\\appPetech.styles.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\obj\\Debug\\net7.0\\scopedcss\\bundle\\appPetech.styles.css",
       "SourceId": "appPetech",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "appPetech.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\obj\\Debug\\net7.0\\scopedcss\\bundle\\appPetech.styles.css"
+      "OriginalItemSpec": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\obj\\Debug\\net7.0\\scopedcss\\bundle\\appPetech.styles.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\appPetech.bundle.scp.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\appPetech.bundle.scp.css",
       "SourceId": "appPetech",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "appPetech.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\appPetech.bundle.scp.css"
+      "OriginalItemSpec": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\appPetech.bundle.scp.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\css\\bienestar.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\css\\bienestar.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "css/bienestar.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bienestar.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\css\\cart.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\css\\cart.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "css/cart.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cart.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\css\\catalogo.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\css\\catalogo.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "css/catalogo.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\catalogo.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\css\\contacto.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\css\\contacto.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "css/contacto.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\contacto.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\css\\details.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\css\\details.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "css/details.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\details.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\css\\index.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\css\\index.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "css/index.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\css\\login.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\css\\login.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\css\\paginaPrincipal.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\css\\paginaPrincipal.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "css/paginaPrincipal.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\paginaPrincipal.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\css\\register.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\css\\register.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "css/register.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\register.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\css\\site.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\css\\site.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\favicon.ico",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\favicon.ico",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\advertencia.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\advertencia.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/advertencia.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\advertencia.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\aguahamster.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\aguahamster.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/aguahamster.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\aguahamster.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\aguatortugas.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\aguatortugas.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/aguatortugas.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\aguatortugas.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\alimentohamster.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\alimentohamster.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/alimentohamster.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\alimentohamster.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\arenagatos.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\arenagatos.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/arenagatos.png",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\arenagatos.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\ArrowIcon.svg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\ArrowIcon.svg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/ArrowIcon.svg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\ArrowIcon.svg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\blog_icon.svg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\blog_icon.svg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/blog_icon.svg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\blog_icon.svg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\boxi.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\boxi.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/boxi.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\boxi.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\bravecto.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\bravecto.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/bravecto.jpg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\bravecto.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\camaperros.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\camaperros.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/camaperros.png",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\camaperros.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\camaramascotas.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\camaramascotas.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/camaramascotas.jpg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\camaramascotas.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\cartIcon.svg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\cartIcon.svg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/cartIcon.svg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\cartIcon.svg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\cepillofurbo.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\cepillofurbo.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/cepillofurbo.jpg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\cepillofurbo.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\closeIcon.svg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\closeIcon.svg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/closeIcon.svg",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\closeIcon.svg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\collarin.jpeg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\collarin.jpeg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/collarin.jpeg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\collarin.jpeg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\collaringatos.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\collaringatos.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/collaringatos.png",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\collaringatos.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\collarinperros.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\collarinperros.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/collarinperros.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\collarinperros.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\comederoautomatico.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\comederoautomatico.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/comederoautomatico.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\comederoautomatico.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\comederopetsafe.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\comederopetsafe.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/comederopetsafe.jpg",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\comederopetsafe.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\comedor.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\comedor.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/comedor.jpg",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\comedor.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\comidaconejos.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\comidaconejos.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/comidaconejos.jpg",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\comidaconejos.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\gpsmascotas.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\gpsmascotas.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/gpsmascotas.jpg",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\gpsmascotas.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\haulahamster.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\haulahamster.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/haulahamster.jpg",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\haulahamster.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\henoalfalfa.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\henoalfalfa.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/henoalfalfa.png",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\henoalfalfa.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\jaulaconejos.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\jaulaconejos.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/jaulaconejos.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\jaulaconejos.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\juguetewicket.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\juguetewicket.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/juguetewicket.jpg",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\juguetewicket.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\laberintoconejos.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\laberintoconejos.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/laberintoconejos.jpg",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\laberintoconejos.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\login.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\login.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/login.png",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\login.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\logoPetech.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\logoPetech.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/logoPetech.png",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\logoPetech.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\mapIcon.svg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\mapIcon.svg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/mapIcon.svg",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\mapIcon.svg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\monitor.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\monitor.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/monitor.jpg",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\monitor.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\nuestrasTiendas.jpg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\nuestrasTiendas.jpg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/nuestrasTiendas.jpg",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\nuestrasTiendas.jpg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\nutricanadultos.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\nutricanadultos.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/nutricanadultos.png",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\nutricanadultos.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\PETECHLOGO.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\PETECHLOGO.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/PETECHLOGO.png",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\PETECHLOGO.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\phoneIcon.svg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\phoneIcon.svg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/phoneIcon.svg",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\phoneIcon.svg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\portada1.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\portada1.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/portada1.png",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\portada1.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\portada2.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\portada2.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/portada2.png",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\portada2.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\portada3.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\portada3.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/portada3.png",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\portada3.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\portada4.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\portada4.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/portada4.png",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\portada4.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\portada5.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\portada5.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/portada5.png",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\portada5.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\portada6.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\portada6.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/portada6.png",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\portada6.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\portada7.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\portada7.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/portada7.png",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\portada7.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\prueba.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\prueba.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/prueba.png",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\prueba.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\prueba2.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\prueba2.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/prueba2.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\prueba2.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\prueba3.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\prueba3.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/prueba3.png",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\prueba3.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\prueba4.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\prueba4.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/prueba4.png",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\prueba4.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\register.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\register.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/register.png",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\register.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\search_icon.svg",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\search_icon.svg",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/search_icon.svg",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\search_icon.svg"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\imagenes\\snacksperros.png",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\imagenes\\snacksperros.png",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "imagenes/snacksperros.png",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\snacksperros.png"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\js\\index.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\js\\index.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "js/index.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\js\\index.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\js\\PopUp.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\js\\PopUp.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "js/PopUp.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\js\\PopUp.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\js\\site.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\js\\site.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "appPetech",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\wwwroot\\",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech26\\appPetech\\wwwroot\\",
       "BasePath": "_content/appPetech",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
