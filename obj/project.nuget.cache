@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6R4kgQTzyw17hYb97u0e+j8Xw+BSaeKxI7i7r+D0E7PGDBDdPwEOkcC191LdY2ifYz8H+fbmS03zFglcsW74qg==",
+  "dgSpecHash": "D6dvKlRN0KbM9wcGiEFdNd0pg10NN38KyEbe1Kzxyafh0vobJtYOVf6o4wymFFtAz1CF4utwUtEuepDt93IWNQ==",
   "success": true,
-  "projectFilePath": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech24\\appPetech\\appPetech.csproj",
+  "projectFilePath": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\apppetech25\\appPetech\\appPetech.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\INGRID\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\INGRID\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
