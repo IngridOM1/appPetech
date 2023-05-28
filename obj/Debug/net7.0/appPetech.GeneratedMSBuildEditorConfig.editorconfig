@@ -9,157 +9,157 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = appPetech
 build_property.RootNamespace = appPetech
-build_property.ProjectDir = C:\PROGRAMACION2023\PROYECTO PROGRAMACION\appPetech23\appPetech\
+build_property.ProjectDir = c:\PROGRAMACION2023\PROYECTO PROGRAMACION\appPetech23\appPetech\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\PROGRAMACION2023\PROYECTO PROGRAMACION\appPetech23\appPetech
+build_property.MSBuildProjectDirectory = c:\PROGRAMACION2023\PROYECTO PROGRAMACION\appPetech23\appPetech
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Areas/Identity/Pages/Account/Login.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Areas/Identity/Pages/Account/Register.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Areas/Identity/Pages/_ViewImports.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Areas/Identity/Pages/_ViewStart.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Cart/Edit.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Cart/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Cart/Index.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Catalogo/Details.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Catalogo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Catalogo/Index.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Catalogo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Contacto/Create.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Contacto/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Contacto/prueba.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Contacto/prueba.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdG9ccHJ1ZWJhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Delivery/Create.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Delivery/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Delivery/Delete.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Delivery/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Delivery/Details.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Delivery/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Delivery/Edit.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Delivery/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Delivery/Index.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Delivery/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/DogBreed/Index.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/DogBreed/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9nQnJlZWRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Home/admin.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Home/admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Home/Bienestar.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Home/Bienestar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCaWVuZXN0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Home/Estilodevida.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Home/Estilodevida.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFc3RpbG9kZXZpZGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Home/Index.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Home/Nutricion.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Home/Nutricion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOdXRyaWNpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Pago/Create.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Pago/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Pedido/Index.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Pedido/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Promociones/Index.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Promociones/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Promociones/Liquidaciones.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Promociones/Liquidaciones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uZXNcTGlxdWlkYWNpb25lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Promociones/Promos.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Promociones/Promos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uZXNcUHJvbW9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Promociones/Superofertas.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Promociones/Superofertas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uZXNcU3VwZXJvZmVydGFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Shared/Error.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Shared/_LayoutLogued.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Shared/_LayoutLogued.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2d1ZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Shared/_LoginPartial.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Shared/_MenuAdminPartial.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Shared/_MenuAdminPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51QWRtaW5QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/_ViewImports.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/_ViewStart.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Shared/_Layout.cshtml]
+[c:/PROGRAMACION2023/PROYECTO PROGRAMACION/appPetech23/appPetech/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rooo9i4uuq
