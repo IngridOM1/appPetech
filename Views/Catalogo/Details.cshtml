@@ -17,21 +17,22 @@
 @section Styles {
     <link href="~/css/details.css" rel="stylesheet" />
 }
-<h1>Detalles</h1>
-<div class="container">
-    <div class="col-sm-4">
-        <div class="card mb-3">
-            <div class="card-body">
-                <div class="card-img-actions">
-                    <img class="img-responsive" width="200px" src="/imagenes/@Html.DisplayFor(model => model.ImageName)" alt="">
-                </div>
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">@Html.DisplayFor(model => model.Name)</h5>
-                <p class="card-text">@Html.DisplayFor(model => model.Descripcion)</p>
-                <h5 class="card-title">S/ @Html.DisplayFor(model => model.Precio)</h5>
-            <a class="btn btn-primary">Add</a>
-            </div>
+ <main class="container-main">
+      <div class="card">
+        <div class="img-top"><img class="img-responsive" width="300px" height="300px" src="/imagenes/@Html.DisplayFor(model => model.ImageName)" alt="">
         </div>
-    </div>
-</div>
+        <div class="card-body">
+          <h1 class="card-title">DETALLE SOBRE EL PRODUCTO SELECCIONADO</h1>
+          <h1 class="card-subtitle">@Html.DisplayFor(model => model.Name)</h1>
+          <p class="card-text">
+            @Html.DisplayFor(model => model.Descripcion)
+          </p>
+          <div class="prices">
+            <h1 class="card-title-price">S/ @Html.DisplayFor(model => model.Precio)</h1>
+          </div>
+           
+            <a href="#" class="btn-btna"> AÑADIR AL CARRITO</a>
+       
+        </div>
+      </div>
+    </main>
