@@ -1,0 +1,56 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "ADMIN PAGE";
+
+    if(SignInManager.IsSignedIn(User)){
+       Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    }
+}
+
+@section Styles {
+    <link href="~/css/admin.css" rel="stylesheet" />
+}
+
+    <style>
+    
+    .btn-warning {
+
+        border-radius: 40px;
+ 
+    }
+    
+    </style>
+
+<section>
+
+    <div class="IndexHeader">       
+        <h1 class="BlogHandler_h1">Panel de Control</h1>
+    </div>
+ 
+    <div class="OptionHandler">
+
+        <div class="OptionModule">
+            <img  class="OptionModule_imgContainer" src="~/imagenes/RegistrarProductoImg.png" /> 
+        </div>
+        
+        <div class="OptionModule">
+            <img  class="OptionModule_imgContainer" src="~/imagenes/DeliveryImg.png" /> 
+        </div>
+
+        <div class="OptionModule">
+            <img  class="OptionModule_imgContainer" src="~/imagenes/DeliveryImg.png" /> 
+        </div>
+
+        <div class="OptionModule">
+            <img  class="OptionModule_imgContainer" src="~/imagenes/DeliveryImg.png" /> 
+        </div>
+
+        <div class="OptionModule">
+            <img  class="OptionModule_imgContainer" src="~/imagenes/DeliveryImg.png" /> 
+        </div>
+
+    </div>
+</section>

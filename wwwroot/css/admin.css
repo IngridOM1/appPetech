@@ -1,0 +1,15 @@
+.OptionHandler{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.OptionModule{
+    width: 250px;
+}
+
+.OptionModule_imgContainer{
+    width: 100%;
+}

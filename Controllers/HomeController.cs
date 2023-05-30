@@ -31,6 +31,8 @@ public class HomeController : Controller
         var userID = _userManager.GetUserName(User);
             if(userID == null){
                 return View(productos);
+            }else if (userID == "admin"){
+                return RedirectToAction("Index","Admin");
             }else{
                 return RedirectToAction("Index","Catalogo");
             }
@@ -85,6 +87,8 @@ public class HomeController : Controller
       {
         return View();
     }
+
+    
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
