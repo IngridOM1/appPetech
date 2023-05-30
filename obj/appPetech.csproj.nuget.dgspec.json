@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 29-05\\appPetech\\appPetech.csproj": {}
+    "C:\\Users\\FERNANDO\\Documents\\ramos\\appPetech\\appPetech.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 29-05\\appPetech\\appPetech.csproj": {
+    "C:\\Users\\FERNANDO\\Documents\\ramos\\appPetech\\appPetech.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 29-05\\appPetech\\appPetech.csproj",
+        "projectUniqueName": "C:\\Users\\FERNANDO\\Documents\\ramos\\appPetech\\appPetech.csproj",
         "projectName": "appPetech",
-        "projectPath": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 29-05\\appPetech\\appPetech.csproj",
-        "packagesPath": "C:\\Users\\josue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 29-05\\appPetech\\obj\\",
+        "projectPath": "C:\\Users\\FERNANDO\\Documents\\ramos\\appPetech\\appPetech.csproj",
+        "packagesPath": "C:\\Users\\FERNANDO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FERNANDO\\Documents\\ramos\\appPetech\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\josue\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\FERNANDO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

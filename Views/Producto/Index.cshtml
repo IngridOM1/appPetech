@@ -1,0 +1,71 @@
+@model IEnumerable<appPetech.Models.Producto>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Productos";
+
+    if (SignInManager.IsSignedIn(User))
+    {
+         Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    }
+}
+
+<div class="container text-center">
+    <h1>Gestión de productos</h1>
+
+    <p>
+        <a class="btn btn-primary" asp-action="Create">Nuevo producto</a>
+    </p>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>
+                Producto
+            </th>
+            <th>
+                Descripcion
+            </th>
+            <th>
+                Precio
+            </th>
+            <th>
+                Descuento
+            </th>
+            <th>
+                Imagen
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PorcentajeDescuento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImageName)
+            </td>
+            <td>
+                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a></td> 
+                <td>  <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalle</a> </td> 
+              <td>   <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+            </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
