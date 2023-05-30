@@ -5,7 +5,6 @@
 
 @{
     ViewData["Title"] = "Catalogo";
-
     if(SignInManager.IsSignedIn(User)){
        Layout = "~/Views/Shared/_LayoutLogued.cshtml";
     } else {
@@ -20,6 +19,9 @@
 
     <div class="indexSection">
         <h1>@ViewData["Message"]</h1>
+        <h1>@ViewData["userID"]</h1>
+        <h1>@ViewData["userID2"]</h1>
+        <h1>@ViewData["userRoles"]</h1>
         <br>
 <div class="carousel">
   <div class="carousel__wrapper">

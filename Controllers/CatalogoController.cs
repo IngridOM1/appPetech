@@ -27,7 +27,19 @@ namespace appPetech.Controllers
         public async Task<IActionResult> Index(string? searchString)
         {
             var productos = await ObtenerProductosCatalogo(searchString);
-            return View(productos);
+            var user = await _userManager.GetUserAsync(User);
+            var roles = await _userManager.GetRolesAsync(user);
+
+            if(roles.Count>0 && roles[0] == "admin"){
+                return RedirectToAction("Index","Admin");
+            }else{
+                return View(productos);
+            }
+
+            //return View(productos);
+
+
+
         }
         
         public async Task<List<Producto>> ObtenerProductosCatalogo(string searchString)
