@@ -26,8 +26,11 @@
 
 <section class="SectionModule">
 
-    <div class="IndexHeader">       
-        <h1 class="IndexHeader_h1">PANEL DE CONTROL</h1>
+    <div class="IndexHeader">
+        <div class="IndexHeader_Message">
+            <h1 class="IndexHeader_h1">Hola @User.Identity?.Name!</h1>
+            <span>Aqui tienes tus funcionalidades listas para usarse</span>
+        </div>       
         <img class="IndexHeader_img" src="~/imagenes/adminTools.svg">
     </div>
  
@@ -41,6 +44,21 @@
         <div class="OptionModule">
             <img  class="OptionModule_imgContainer" src="~/imagenes/DeliveryImg.png" />
             <a class="OptionModule_btnDelivery" asp-area=""  asp-controller="Delivery" asp-action="Index">Empezar</a> 
+        </div>
+
+        <div class="OptionModule">
+            <img  class="OptionModule_imgContainer" src="~/imagenes/DeliveryImg.png" />
+            <a class="OptionModule_btnDelivery" asp-area="" asp-controller="Pedido" asp-action="Index">Empezar</a> 
+        </div>
+
+        <div class="OptionModule">
+            <img  class="OptionModule_imgContainer" src="~/imagenes/DeliveryImg.png" />
+            <a class="OptionModule_btnDelivery" asp-area="" asp-controller="Pedido" asp-action="Index">Empezar</a> 
+        </div>
+
+        <div class="OptionModule">
+            <img  class="OptionModule_imgContainer" src="~/imagenes/DeliveryImg.png" />
+            <a class="OptionModule_btnDelivery" asp-area="" asp-controller="Pedido" asp-action="Index">Empezar</a> 
         </div>
 
         <div class="OptionModule">

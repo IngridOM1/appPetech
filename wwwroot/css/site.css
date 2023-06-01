@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
+main{
+  /*display: flex;*/
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -74,19 +78,30 @@ body {
   align-items: center;
 }
 
+.header_icon{
+  width: 20%;
+}
+
+.header_sectionLabel{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
 .sideBar{
   display: flex;
-  flex-flow: column;
-  width: 50%;
-  background-color: white;
-  border-radius: 0px 10px 10px 0px;
-  padding: 10px;
-  position: fixed;
-  z-index: 400;
-  top: 20%;
-  max-width: 350px;
-  border: 2px solid #ffd65b;
-  border-left: 0px;
+    flex-flow: column;
+    width: 75%;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px 8px 10px 0px;
+    position: fixed;
+    z-index: 400;
+    top: 20%;
+    max-width: 350px;
+    border: 2px solid #ffd65b;
+    border-left: 0px;
+    gap: 5px;
 }
 
 
@@ -120,10 +135,21 @@ body {
   padding: 10px;
 }
 
+.sideBar_options a{
+  text-decoration: none;
+  color: black;
+}
+
 .sideBar_options{
   display: flex;
-  border-top: 1px solid black;
+  /*border-top: 1px solid black;*/
   align-items: center;
+  background-color: #F9F69F;
+}
+
+.sideBar_options:hover{
+  background-color: #F3EC34;
+
 }
 
 

@@ -36,53 +36,42 @@
         </nav>
     </header>
 
-
-<nav class="navbar navbar-expand-sm" style="background-color: white; border-bottom: 1px solid white;">
-    <div class="container-fluid">
-        <a class="navbar-brand navBar_logoHandler" asp-area="" asp-controller="Home" asp-action="Index">
-            <img class="navBar_img" src="~/imagenes/logoPetech.png" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end handler_linksContainer">
-            <div class="navbar-nav flex-grow-0 navBar_navItemContainer" style="display: flex; justify-content: center; padding: 0 70px;">
-                <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
-                        <span style="color: #FFDE59; font-weight: bold;">HOME</span>
-                    </a>
-                </li>      
-                <partial name="_MenuAdminPartial"/>
-            </div>
-                
-              
-
-        </div>
-        
-    </div>
-</nav>
-
     <main role="main">
                     <div id='sideBar-open' class="openButton">
                 <img class="openButton_img" src="/imagenes/ArrowIcon.svg">
             </div>
             <div id="sidebar" class='sideBar'>
                 <div class="sideBar_header">
-                    <h1>Opciones</h1>
+                    <div class="header_sectionLabel">
+                        <img class="header_icon" src="/imagenes/casaIcon.png">
+                        <h1>Opciones</h1>
+                    </div>
                     <img id="sidebar-close" class="sideBar_closeIcon" src="/imagenes/closeIcon.svg">
                 </div>
+        
                 <div class="sideBar_options">
-                    <img class="options_cartIcon" src="/imagenes/cartIcon.svg">
-                    <a asp-controller="Cart" asp-action="Index">Carrito</a>
+                    <img class="options_cartIcon" src="/imagenes/listaProductosIcon.png">
+                    <a asp-area="" asp-controller="Pedido" asp-action="Index">Listar pedido</a>
                 </div>
                 <div class="sideBar_options">
-                    <img class="options_mapIcon" src="/imagenes/mapIcon.svg">
-                    <label>Tiendas</label>
+                    <img class="options_mapIcon" src="/imagenes/addCart.png">
+                    <a asp-controller="Producto" asp-action="Create">Registrar nuevo producto</a>
                 </div>
                 <div class="sideBar_options">
-                    <img class="options_phoneIcon" src="/imagenes/phoneIcon.svg">
-                    <label>Contactenos</label>
+                    <img class="options_mapIcon" src="/imagenes/listaProductosIcon.png">
+                    <a asp-area="" asp-controller="Producto" asp-action="Index">Listar productos</a>
+                </div>
+                <div class="sideBar_options">
+                    <img class="options_phoneIcon" src="/imagenes/registrarNuevoDelivery.png">
+                    <a asp-controller="Delivery" asp-action="Create">Registrar nuevo delivery</a>
+                </div>
+                <div class="sideBar_options">
+                    <img class="options_phoneIcon" src="/imagenes/listarDelivery.png">
+                    <a asp-area="" asp-controller="Delivery" asp-action="Index">Listar delivery</a>
+                </div>
+                <div class="sideBar_options">
+                    <img class="options_phoneIcon" src="/imagenes/listarClientes.png">
+                    <a>Listar de clientes</a>
                 </div>
             </div>
             @RenderBody()
