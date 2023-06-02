@@ -17,5 +17,7 @@ $(document).ready(function(){
     $("#sidebar-close").click(function() {
         $("#sidebar").hide();
       });
-
 })
+
+
+

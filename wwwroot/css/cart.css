@@ -97,6 +97,29 @@ table th {
     border-radius: 3%;
 }
 
+.pupUpContent_Icon{
+    background-color: #e3b211 ;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50%;
+}
+.popupContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.popupContent_text{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.Icon_img{
+    width: 100%;
+}
+
 .productPopup .closeButton {
     position: absolute;
     top: 10px;

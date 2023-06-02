@@ -57,12 +57,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 01-06\\appPetech\\wwwroot\\imagenes\\AddCart.png",
+      "PackagePath": "staticwebassets\\imagenes\\AddCart.png"
+    },
+    {
       "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 01-06\\appPetech\\wwwroot\\imagenes\\ArrowIcon.svg",
       "PackagePath": "staticwebassets\\imagenes\\ArrowIcon.svg"
     },
     {
       "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 01-06\\appPetech\\wwwroot\\imagenes\\DeliveryImg.png",
       "PackagePath": "staticwebassets\\imagenes\\DeliveryImg.png"
+    },
+    {
+      "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 01-06\\appPetech\\wwwroot\\imagenes\\ListarDelivery.png",
+      "PackagePath": "staticwebassets\\imagenes\\ListarDelivery.png"
     },
     {
       "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 01-06\\appPetech\\wwwroot\\imagenes\\PETECHLOGO.png",
@@ -119,6 +127,14 @@
     {
       "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 01-06\\appPetech\\wwwroot\\imagenes\\cartIcon.svg",
       "PackagePath": "staticwebassets\\imagenes\\cartIcon.svg"
+    },
+    {
+      "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 01-06\\appPetech\\wwwroot\\imagenes\\casaIcon.png",
+      "PackagePath": "staticwebassets\\imagenes\\casaIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 01-06\\appPetech\\wwwroot\\imagenes\\cashIcon.svg",
+      "PackagePath": "staticwebassets\\imagenes\\cashIcon.svg"
     },
     {
       "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 01-06\\appPetech\\wwwroot\\imagenes\\cepillofurbo.jpg",
@@ -179,6 +195,14 @@
     {
       "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 01-06\\appPetech\\wwwroot\\imagenes\\laberintoconejos.jpg",
       "PackagePath": "staticwebassets\\imagenes\\laberintoconejos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 01-06\\appPetech\\wwwroot\\imagenes\\listaProductosIcon.png",
+      "PackagePath": "staticwebassets\\imagenes\\listaProductosIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 01-06\\appPetech\\wwwroot\\imagenes\\listarClientes.png",
+      "PackagePath": "staticwebassets\\imagenes\\listarClientes.png"
     },
     {
       "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 01-06\\appPetech\\wwwroot\\imagenes\\login.png",
@@ -255,6 +279,10 @@
     {
       "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 01-06\\appPetech\\wwwroot\\imagenes\\register.png",
       "PackagePath": "staticwebassets\\imagenes\\register.png"
+    },
+    {
+      "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 01-06\\appPetech\\wwwroot\\imagenes\\registrarNuevoDelivery.png",
+      "PackagePath": "staticwebassets\\imagenes\\registrarNuevoDelivery.png"
     },
     {
       "Id": "C:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 01-06\\appPetech\\wwwroot\\imagenes\\search_icon.svg",

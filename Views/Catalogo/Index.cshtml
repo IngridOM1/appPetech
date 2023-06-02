@@ -15,6 +15,7 @@
 
 @section Styles {
     <link href="~/css/index.css" rel="stylesheet" />
+    <link href="~/css/cart.css" rel="stylesheet" />
 }
 
     <div class="indexSection">
@@ -94,6 +95,18 @@
             <button type="submit" class="searchForm_btn"><img class="btn_search" src="/imagenes/search_icon.svg"/></button>
         </form>
 
+  <div class="overlay"></div>
+  <div class="productPopup">
+      <div class="popupContent">
+          <div style="display: flex; justify-content: center;" class="pupUpContent_Icon">
+              <img style="width: 75%;"  class="Icon_img" src="/imagenes/AddCart.png"/>
+          </div>
+          <div class="popupContent_text">
+              <h1>Gracias su producto se añadio al carrito!</h1>
+          </div>
+      </div>
+      <span class="closeButton">&times;</span>
+  </div>
 
         <div id="products" class="indexSection_productHandler">
                         @foreach (var item in Model){
@@ -105,13 +118,36 @@
                         }
                         <label class="productComponentContainer_precio">S/@Html.DisplayFor(modelItem => item.Precio)</label>
                         <div class="btn_options">
-                            <a class="btn btn-primary" style="background-color: #ED981D; border: 1px solid #ED981D;"asp-action="Add" asp-route-id="@item.Id"><span class="material-symbols-outlined" style="vertical-align: middle;">shopping_cart</span>Añadir</a>
+                            <a onclick="showPopUp(@item.Id,event)" class="btn btn-primary" style="background-color: #ED981D; border: 1px solid #ED981D;"asp-action="Add" asp-route-id="@item.Id"><span class="material-symbols-outlined" style="vertical-align: middle;">shopping_cart</span>Añadir</a>
                             <a class="btn btn-info" style="background-color: #FAD7A5; border: 1px solid #FAD7A5;" asp-action="Details" asp-route-id="@item.Id">Ver más </a>
                         </div>
                     </div>
                         }      
         </div>
     </div>
+
+  <script>
+     const showPopUp = (idProduct,event) => {
+        event.preventDefault()
+        const overlay = document.getElementsByClassName('overlay')[0]
+        const popup = document.getElementsByClassName('productPopup')[0]
+        overlay.classList.add('active')
+        popup.classList.add('active')
+        window.location.href = "/Catalogo/Add/?id=" + idProduct;
+      }
+
+      const closePopUp = ()=>{
+          const overlay = document.getElementsByClassName('overlay')[0]
+          const popup = document.getElementsByClassName('productPopup')[0]
+          overlay.classList.remove('active')
+          popup.classList.remove('active')
+      }
+      const overlay = document.getElementsByClassName('overlay')[0]
+      const cerrar = document.getElementById("cerrar")
+      const closeButton = document.getElementsByClassName('closeButton')[0]
+      closeButton.addEventListener('click',closePopUp)
+  </script>
+
     <script src="/js/PopUp.js"></script>
-                <script src="/js/index.js"></script>
+    <script src="/js/index.js"></script>
  

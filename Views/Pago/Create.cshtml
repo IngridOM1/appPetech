@@ -3,12 +3,16 @@
     ViewData["Title"] = "Realizar Pago";
 }
 
+@section Styles {
+    <link href="~/css/cart.css" rel="stylesheet" />
+}
+
 <center><h2>@ViewData["Title"]</h2></center>
 
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8 mt-5">
-            <form asp-controller="Pago" asp-action="Pagar">
+            <form id="formPagar" asp-controller="Pago" asp-action="Pagar">
                 <div class="form-group row">
                     <input type="hidden" asp-for="UserID" />
                     <div class="col-sm-3">
@@ -58,11 +62,55 @@
                 <div class="form-group row">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-6">
-                        <button type="submit" class="btn btn-primary" style="background-color: #ED981D; border-color: #ED981D; width: 100%;">Pagar</button>
+                        <button id="btnPagar" type="submit" class="btn btn-primary" style="background-color: #ED981D; border-color: #ED981D; width: 100%;">Pagar</button>
                     </div>
                 </div>
             </form>
-            <h1>@ViewData["Message"]</h1>
         </div>
     </div>
 </div>
+
+<div class="overlay"></div>
+<div class="productPopup">
+    <div class="popupContent">
+        <div class="pupUpContent_Icon">
+            <img class="Icon_img" src="/imagenes/cashIcon.svg"/>
+        </div>
+        <div class="popupContent_text">
+            <h1>Gracias!</h1>
+            <span>Su pago se realizo exitosamente el pedido se registro correctamente y su pedido @ViewData["nPedido"] va en camino!</span>
+        </div>
+    </div>
+    <span class="closeButton">&times;</span>
+</div>
+
+
+
+@section Scripts {
+    <script>
+    const showPopUp = (e) => {
+        e.preventDefault();
+        const overlay = document.getElementsByClassName('overlay')[0]
+        const popup = document.getElementsByClassName('productPopup')[0]
+
+        overlay.classList.add('active')
+        popup.classList.add('active')
+
+    }
+    const closePopUp = ()=>{
+        overlay.classList.remove('active')
+        const popup = document.getElementsByClassName('productPopup')[0]
+        popup.classList.remove('active')
+        form.submit()
+    }
+
+    const btnPagar = document.getElementById("btnPagar")
+    const form = document.getElementById("formPagar")
+
+    btnPagar.addEventListener('click',showPopUp)
+    const overlay = document.getElementsByClassName('overlay')[0]
+    const closeButton = document.getElementsByClassName('closeButton')[0]
+    closeButton.addEventListener('click',closePopUp)
+</script>
+
+}

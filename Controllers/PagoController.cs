@@ -76,8 +76,8 @@ namespace appPetech.Controllers
 
             _context.SaveChanges();
 
-            ViewData["Message"] = "El pago se ha registrado y su pedido nro "+ pedido.ID +" esta en camino";
-            return View("Create");
+            ViewData["nPedido"] = pedido.ID;
+            return RedirectToAction("Index", "Catalogo");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
