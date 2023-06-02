@@ -1,15 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+
 body {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, sans-serif;
-	background: url('/imagenes/prueba4.png');
+	background: url('/imagenes/prueba8.png');
 	background-size: cover;
 
 }
-
+h1{
+    font-family: "Fraunces", serif;
+    font-size: 4.5em; 
+}
 .container {
 	width: 100%;
 	max-width: 400px;
@@ -71,11 +79,11 @@ button {
 }
 
 button:hover {
-	background-color: #e1b813;
+	background-color: #f3c924;
 }
 
 a {
 	text-decoration: none;
 	color: black;
-	margin-top: 12px;
+	margin-top: 10px;
 }

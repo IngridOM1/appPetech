@@ -1,7 +1,14 @@
 @model appPetech.Models.Producto
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "ADMIN PAGE";
+
+    if(SignInManager.IsSignedIn(User)){
+       Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    }
 }
 
 <div class="container">

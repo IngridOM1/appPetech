@@ -141,6 +141,14 @@
       "PackagePath": "staticwebassets\\imagenes\\cepillofurbo.jpg"
     },
     {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech30\\appPetech\\wwwroot\\imagenes\\check.png",
+      "PackagePath": "staticwebassets\\imagenes\\check.png"
+    },
+    {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech30\\appPetech\\wwwroot\\imagenes\\checkk.gif",
+      "PackagePath": "staticwebassets\\imagenes\\checkk.gif"
+    },
+    {
       "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech30\\appPetech\\wwwroot\\imagenes\\closeIcon.svg",
       "PackagePath": "staticwebassets\\imagenes\\closeIcon.svg"
     },
@@ -229,6 +237,14 @@
       "PackagePath": "staticwebassets\\imagenes\\nutricanadultos.png"
     },
     {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech30\\appPetech\\wwwroot\\imagenes\\pago.gif",
+      "PackagePath": "staticwebassets\\imagenes\\pago.gif"
+    },
+    {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech30\\appPetech\\wwwroot\\imagenes\\pagor.gif",
+      "PackagePath": "staticwebassets\\imagenes\\pagor.gif"
+    },
+    {
       "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech30\\appPetech\\wwwroot\\imagenes\\phoneIcon.svg",
       "PackagePath": "staticwebassets\\imagenes\\phoneIcon.svg"
     },
@@ -275,6 +291,14 @@
     {
       "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech30\\appPetech\\wwwroot\\imagenes\\prueba4.png",
       "PackagePath": "staticwebassets\\imagenes\\prueba4.png"
+    },
+    {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech30\\appPetech\\wwwroot\\imagenes\\prueba7.png",
+      "PackagePath": "staticwebassets\\imagenes\\prueba7.png"
+    },
+    {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech30\\appPetech\\wwwroot\\imagenes\\prueba8.png",
+      "PackagePath": "staticwebassets\\imagenes\\prueba8.png"
     },
     {
       "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech30\\appPetech\\wwwroot\\imagenes\\register.png",
