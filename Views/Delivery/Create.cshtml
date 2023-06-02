@@ -4,15 +4,10 @@
 @inject UserManager<IdentityUser> UserManager
 
 @{
-    ViewData["Title"] = "Catalogo";
+    ViewData["Title"] = "ADMIN PAGE";
 
-    if (SignInManager.IsSignedIn(User))
-    {
-        Layout = "~/Views/Shared/_LayoutLogued.cshtml";
-    }
-    else
-    {
-        Layout = "~/Views/Shared/_Layout.cshtml"; // El layout predeterminado
+    if(SignInManager.IsSignedIn(User)){
+       Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
     }
 }
 

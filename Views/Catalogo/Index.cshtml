@@ -99,10 +99,10 @@
   <div class="productPopup">
       <div class="popupContent">
           <div style="display: flex; justify-content: center;" class="pupUpContent_Icon">
-              <img style="width: 75%;"  class="Icon_img" src="/imagenes/AddCart.png"/>
+              <div class="tenor-gif-embed" data-postid="16677782" data-share-method="host" data-aspect-ratio="1.02564" data-width="100%"><a href="https://tenor.com/view/check-green-white-background-gif-16677782">Check Green GIF</a>from <a href="https://tenor.com/search/check-gifs">Check GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
           </div>
           <div class="popupContent_text">
-              <h1>Gracias su producto se añadio al carrito!</h1>
+              <center><h4>SE AÑADIÓ EL PRODUCTO A TU CARRITO!</h4></center>
           </div>
       </div>
       <span class="closeButton">&times;</span>
@@ -134,6 +134,9 @@
         overlay.classList.add('active')
         popup.classList.add('active')
         window.location.href = "/Catalogo/Add/?id=" + idProduct;
+
+        const duracionPopUp = 7000; // Ejemplo: 5 segundos
+        setTimeout(closePopUp, duracionPopUp);
       }
 
       const closePopUp = ()=>{
