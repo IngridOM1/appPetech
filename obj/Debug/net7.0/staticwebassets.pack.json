@@ -321,6 +321,10 @@
       "PackagePath": "staticwebassets\\js\\PopUp.js"
     },
     {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech31\\appPetech\\wwwroot\\js\\admin.js",
+      "PackagePath": "staticwebassets\\js\\admin.js"
+    },
+    {
       "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech31\\appPetech\\wwwroot\\js\\index.js",
       "PackagePath": "staticwebassets\\js\\index.js"
     },
