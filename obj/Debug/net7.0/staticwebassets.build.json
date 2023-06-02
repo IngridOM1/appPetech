@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zQnLLAeQvcAjnbjO8Ie26HuHOMJABgp0pwhSn1zGu4k=",
+  "Hash": "rWDT7IcJGtlSze9/hL3z0C9Y94X2tM0EzNnQxignHL4=",
   "Source": "appPetech",
   "BasePath": "_content/appPetech",
   "Mode": "Default",
@@ -1375,6 +1375,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\snacksperros.png"
+    },
+    {
+      "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech31\\appPetech\\wwwroot\\js\\admin.js",
+      "SourceId": "appPetech",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech31\\appPetech\\wwwroot\\",
+      "BasePath": "_content/appPetech",
+      "RelativePath": "js/admin.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\admin.js"
     },
     {
       "Identity": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech31\\appPetech\\wwwroot\\js\\index.js",
