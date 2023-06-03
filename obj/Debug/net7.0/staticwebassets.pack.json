@@ -317,6 +317,10 @@
       "PackagePath": "staticwebassets\\imagenes\\snacksperros.png"
     },
     {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech40\\appPetech\\wwwroot\\imagenes\\soporte.png",
+      "PackagePath": "staticwebassets\\imagenes\\soporte.png"
+    },
+    {
       "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech40\\appPetech\\wwwroot\\js\\PopUp.js",
       "PackagePath": "staticwebassets\\js\\PopUp.js"
     },
