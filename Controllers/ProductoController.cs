@@ -20,11 +20,39 @@ namespace appPetech.Controllers
         }
 
         // GET: Producto
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? page, string sort, string search)
         {
-              return _context.DataProductos != null ? 
-                          View(await _context.DataProductos.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.DataProductos'  is null.");
+            int pageSize = 10; // Cantidad de elementos por página
+            int pageNumber = page ?? 1; // Número de página actual, si no se especifica, es la primera página
+
+            var productos = _context.DataProductos.AsQueryable();
+            var totalItems = await productos.CountAsync();
+if (!string.IsNullOrEmpty(search))
+    {
+        productos = productos.Where(p => p.Name.Contains(search));
+    }
+if (!string.IsNullOrEmpty(search))
+            {
+                productos = productos.Where(p => p.Name.Contains(search));
+            }
+            // Ordenar los productos según el parámetro de consulta "sort"
+            switch (sort)
+            {
+                case "id_desc":
+                    productos = productos.OrderByDescending(p => p.Id);
+                    break;
+                default:
+                    productos = productos.OrderBy(p => p.Id);
+                    break;
+            }
+
+            ViewBag.TotalPages = (int)Math.Ceiling(totalItems / (double)pageSize);
+            ViewBag.CurrentPage = pageNumber;
+
+            var paginatedProductos = await productos.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToListAsync();
+
+        
+            return View(paginatedProductos);
         }
 
         // GET: Producto/Details/5
@@ -52,8 +80,6 @@ namespace appPetech.Controllers
         }
 
         // POST: Producto/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Descripcion,Precio,PorcentajeDescuento,ImageName")] Producto productos)
@@ -84,8 +110,6 @@ namespace appPetech.Controllers
         }
 
         // POST: Producto/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Marca,Descripcion,Precio,PorcentajeDescuento,ImageName,Status")] Producto productos)
@@ -143,21 +167,21 @@ namespace appPetech.Controllers
         {
             if (_context.DataProductos == null)
             {
-                return Problem("Entity set 'ApplicationDbContext.DataProducto'  is null.");
+                return Problem("Entity set 'ApplicationDbContext.DataProducto' is null.");
             }
             var productos = await _context.DataProductos.FindAsync(id);
             if (productos != null)
             {
                 _context.DataProductos.Remove(productos);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ProductosExists(int id)
         {
-          return (_context.DataProductos?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.DataProductos?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

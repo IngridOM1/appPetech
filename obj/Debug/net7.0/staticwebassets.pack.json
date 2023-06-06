@@ -29,12 +29,28 @@
       "PackagePath": "staticwebassets\\css\\create.css"
     },
     {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech42\\appPetech\\wwwroot\\css\\createDel.css",
+      "PackagePath": "staticwebassets\\css\\createDel.css"
+    },
+    {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech42\\appPetech\\wwwroot\\css\\createProd.css",
+      "PackagePath": "staticwebassets\\css\\createProd.css"
+    },
+    {
       "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech42\\appPetech\\wwwroot\\css\\details.css",
       "PackagePath": "staticwebassets\\css\\details.css"
     },
     {
       "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech42\\appPetech\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech42\\appPetech\\wwwroot\\css\\listarDel.css",
+      "PackagePath": "staticwebassets\\css\\listarDel.css"
+    },
+    {
+      "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech42\\appPetech\\wwwroot\\css\\listarProd.css",
+      "PackagePath": "staticwebassets\\css\\listarProd.css"
     },
     {
       "Id": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech42\\appPetech\\wwwroot\\css\\login.css",

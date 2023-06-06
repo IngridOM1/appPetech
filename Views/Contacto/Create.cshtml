@@ -3,6 +3,11 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
+@section Styles {
+    <link href="~/css/createProd.css" rel="stylesheet" />
+}
+
+
 @{
     ViewData["Title"] = "Contacto";
 
@@ -12,11 +17,6 @@
         Layout = "~/Views/Shared/_Layout.cshtml"; // El layout predeterminado
     }
 
-}
-
-
-@section Styles {
-    <link href="~/css/contacto.css" rel="stylesheet" />
 }
 
 <br>

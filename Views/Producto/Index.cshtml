@@ -1,3 +1,4 @@
+@using Microsoft.AspNetCore.Http
 @model IEnumerable<appPetech.Models.Producto>
 @using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
@@ -8,64 +9,108 @@
 
     if (SignInManager.IsSignedIn(User))
     {
-         Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+        Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
     }
 }
+@section Styles {
+    <link href="~/css/listarProd.css" rel="stylesheet" />
+}
 
-<div class="container text-center">
-    <h1>Gestión de productos</h1>
 
-    <p>
-        <a class="btn btn-primary" asp-action="Create">Nuevo producto</a>
-    </p>
-    <table class="table">
-        <thead>
-        <tr>
-            <th>
-                Producto
-            </th>
-            <th>
-                Descripcion
-            </th>
-            <th>
-                Precio
-            </th>
-            <th>
-                Descuento
-            </th>
-            <th>
-                Imagen
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
+<div class="container">
+    <div class="header">
+        <h1>Gestión de productos</h1>
+        <div class="actions">
+            <a class="btn btn-primary" asp-action="Create">Añadir Nuevo producto</a>
+        </div>
+    </div>
+
+    <div class="search-bar">
+        <div class="input-group">
+            <input type="text" id="searchInput" class="form-control" placeholder="Buscar producto por nombre">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button" id="searchButton">Buscar</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
                 <tr>
-                    <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descripcion)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Precio)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PorcentajeDescuento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ImageName)
-            </td>
-            <td>
-                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a></td> 
-                <td>  <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalle</a> </td> 
-              <td>   <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
-            </td>
+                    <th>Id</th>
+                    <th>Producto</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Descuento</th>
+                    <th>Acciones</th>
                 </tr>
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td data-label="Producto">@Html.DisplayFor(modelItem => item.Id)</td>
+                        <td data-label="Producto">@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td data-label="Descripción">@Html.DisplayFor(modelItem => item.Descripcion)</td>
+                        <td data-label="Precio">@Html.DisplayFor(modelItem => item.Precio)</td>
+                        <td data-label="Descuento">@Html.DisplayFor(modelItem => item.PorcentajeDescuento)</td>
+                        <td data-label="Acciones">
+                            <div class="btn-group" role="group" aria-label="Acciones">
+                                <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                                <a class="btn btn-outline-info" asp-action="Details" asp-route-id="@item.Id">Detalle</a>
+                                <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="pagination">
+    @if (ViewBag.TotalPages > 1)
+    {
+        <nav>
+            <ul class="pagination">
+                @if (ViewBag.CurrentPage > 1)
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="?page=@(ViewBag.CurrentPage - 1)" aria-label="Anterior">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                    </li>
+                }
+
+                @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                {
+                    <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                        <a class="page-link" href="?page=@i">@i</a>
+                    </li>
+                }
+
+                @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="?page=@(ViewBag.CurrentPage + 1)" aria-label="Siguiente">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Siguiente</span>
+                        </a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    }
 </div>
 
+</div>
+<script>
+    $(document).ready(function() {
+        $('#searchButton').click(function() {
+            var searchTerm = $('#searchInput').val();
+            window.location.href = '/Producto/Index?search=' + encodeURIComponent(searchTerm);
+        });
+    });
+</script>

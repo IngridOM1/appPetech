@@ -8,27 +8,37 @@ using Microsoft.EntityFrameworkCore;
 using appPetech.Models;
 using appPetech.Data;
 
-namespace appPetech.Controllers;
-
-public class DeliveryController : Controller
+namespace appPetech.Controllers
 {
-    private readonly ApplicationDbContext _context;
+    public class DeliveryController : Controller
+    {
+        private readonly ApplicationDbContext _context;
 
-    public DeliveryController(ApplicationDbContext context)
+        public DeliveryController(ApplicationDbContext context)
         {
             _context = context;
         }
 
+        // Listar deliveries
+        public async Task<IActionResult> Index(string search)
+{
+    if (_context.DataDelivery == null)
+    {
+        return Problem("Entity set 'ApplicationDbContext.DataDelivery' is null.");
+    }
 
-   // listar deliverys
-   public async Task<IActionResult> Index()
-        {
-              return _context.DataDelivery != null ? 
-                          View(await _context.DataDelivery.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.DataDelivery'  is null.");
-        }
+    IQueryable<Delivery> deliveries = _context.DataDelivery;
 
-     // GET: Producto/Details/5
+    if (!string.IsNullOrEmpty(search))
+    {
+        deliveries = deliveries.Where(d => d.Nombre.Contains(search));
+    }
+
+    var deliveryList = await deliveries.ToListAsync();
+    return View(deliveryList);
+}
+
+        // Mostrar detalles del delivery
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.DataDelivery == null)
@@ -36,38 +46,36 @@ public class DeliveryController : Controller
                 return NotFound();
             }
 
-            var deliverys = await _context.DataDelivery
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (deliverys == null)
+            var delivery = await _context.DataDelivery.FirstOrDefaultAsync(m => m.Id == id);
+            if (delivery == null)
             {
                 return NotFound();
             }
 
-            return View(deliverys);
+            return View(delivery);
         }
 
-
-
-    // crear nuevo delivery
-    public IActionResult Create()
-    {
-        return View();
-    }
-
-    // guardar delivery
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Create([Bind("Id,Nombre,ApellidoPaterno,ApellidoMaterno,Dni,Celular,Vehiculo,Placa")] Delivery delivery)
-    {
-        if (ModelState.IsValid)
+        // Crear nuevo delivery (GET)
+        public IActionResult Create()
         {
-            _context.Add(delivery);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return View();
         }
-        return View(delivery);
-    }
 
+        // Guardar delivery (POST)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("Id,Nombre,ApellidoPaterno,ApellidoMaterno,Dni,Celular,Vehiculo,Placa")] Delivery delivery)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(delivery);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(delivery);
+        }
+    
+    
 
 
 
@@ -163,4 +171,4 @@ public class DeliveryController : Controller
           return (_context.DataDelivery?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
-
+}
