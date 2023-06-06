@@ -8,74 +8,110 @@
 
     if (SignInManager.IsSignedIn(User))
     {
-         Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+        Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
     }
 }
+@section Styles {
+    <link href="~/css/listarDel.css" rel="stylesheet" />
+}
 
-<div class="text-center">
-    <h1>Gestión de deliverys</h1>
+<div class="container">
+    <div class="header">
+        <h1>Gestión de deliveries</h1>
+        <div class="actions">
+            <a class="btn btn-primary" asp-action="Create">Nuevo delivery</a>
+        </div>
+    </div>
 
-    <p>
-        <a class="btn btn-primary" asp-action="Create">Nuevo delivery</a>
-    </p>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    Nombre
-                </th>
-                <th>
-                    ApellidoPaterno
-                </th>
-                <th>
-                    ApellidoMaterno
-                </th>
-                <th>
-                    Dni
-                </th>
-                <th>
-                    Celular
-                </th>
-                <th>
-                    Vehiculo
-                </th>
-                <th>
-                    Placa
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
+    <div class="search-bar">
+        <div class="input-group">
+            <input type="text" id="searchInput" class="form-control" placeholder="Buscar delivery por nombre">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button" id="searchButton">Buscar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
                 <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Nombre)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.ApellidoPaterno)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.ApellidoMaterno)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Dni)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Celular)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Vehiculo)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Placa)
-                    </td>
-                    <td>
-                        <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
-                        <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalle</a>
-                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
-                    </td>
+                    <th>Nombre</th>
+                    <th>Apellido Paterno</th>
+                    <th>Apellido Materno</th>
+                    <th>DNI</th>
+                    <th>Celular</th>
+                    <th>Vehículo</th>
+                    <th>Placa</th>
+                    <th>Acciones</th>
                 </tr>
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td data-label="Nombre">@Html.DisplayFor(modelItem => item.Nombre)</td>
+                        <td data-label="Apellido Paterno">@Html.DisplayFor(modelItem => item.ApellidoPaterno)</td>
+                        <td data-label="Apellido Materno">@Html.DisplayFor(modelItem => item.ApellidoMaterno)</td>
+                        <td data-label="DNI">@Html.DisplayFor(modelItem => item.Dni)</td>
+                        <td data-label="Celular">@Html.DisplayFor(modelItem => item.Celular)</td>
+                        <td data-label="Vehículo">@Html.DisplayFor(modelItem => item.Vehiculo)</td>
+                        <td data-label="Placa">@Html.DisplayFor(modelItem => item.Placa)</td>
+                        <td data-label="Acciones">
+                            <div class="btn-group" role="group" aria-label="Acciones">
+                                <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                                <a class="btn btn-outline-info" asp-action="Details" asp-route-id="@item.Id">Detalle</a>
+                                <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="pagination">
+        @if (ViewBag.TotalPages > 1)
+        {
+            <nav>
+                <ul class="pagination">
+                    @if (ViewBag.CurrentPage > 1)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" href="?page=@(ViewBag.CurrentPage - 1)" aria-label="Anterior">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+                        </li>
+                    }
+
+                    @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                    {
+                        <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                            <a class="page-link" href="?page=@i">@i</a>
+                        </li>
+                    }
+
+                    @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" href="?page=@(ViewBag.CurrentPage + 1)" aria-label="Siguiente">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Siguiente</span>
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </nav>
+        }
+    </div>
 </div>
+
+<script>
+    $(document).ready(function () {
+        $('#searchButton').click(function () {
+            var searchTerm = $('#searchInput').val();
+            window.location.href = '/Delivery/Index?search=' + encodeURIComponent(searchTerm);
+        });
+    });
+</script>

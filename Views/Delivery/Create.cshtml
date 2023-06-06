@@ -3,6 +3,10 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
+@section Styles {
+    <link href="~/css/createDel.css" rel="stylesheet" />
+}
+
 @{
     ViewData["Title"] = "ADMIN PAGE";
 
@@ -11,70 +15,103 @@
     }
 }
 
-<style>
-    .form-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-</style>
-
-<h1 class="text-center">Registrar delivery</h1>
-
-<h4 class="text-center">Delivery</h4>
-<hr />
-
-<div class="form-container">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label class="control-label">Nombre</label>
-                <input asp-for="Nombre" class="form-control" />
-                <span asp-validation-for="Nombre" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label class="control-label">ApellidoPaterno</label>
-                <input asp-for="ApellidoPaterno" class="form-control" />
-                <span asp-validation-for="ApellidoPaterno" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label class="control-label">ApellidoMaterno</label>
-                <input asp-for="ApellidoMaterno" class="form-control" />
-                <span asp-validation-for="ApellidoMaterno" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label class="control-label">Dni</label>
-                <input asp-for="Dni" class="form-control" />
-                <span asp-validation-for="Dni" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label class="control-label">Celular</label>
-                <input asp-for="Celular" class="form-control" />
-                <span asp-validation-for="Celular" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label class="control-label">Vehiculo</label>
-                <input asp-for="Vehiculo" class="form-control" />
-                <span asp-validation-for="Vehiculo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label class="control-label">Placa</label>
-                <input asp-for="Placa" class="form-control" />
-                <span asp-validation-for="Placa" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Guardar" class="btn btn-primary my-3" />
-            </div>
-        </form>
-    </div>
-</div>
-
-<div class="text-center">
-    <a class="btn btn-light" asp-action="Index">&laquo; Volver</a>
-</div>
-
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+
+<script>
+    function validateForm() {
+        var nombre = document.getElementById('Nombre').value;
+        var apellidoPaterno = document.getElementById('ApellidoPaterno').value;
+        var apellidoMaterno = document.getElementById('ApellidoMaterno').value;
+        var dni = document.getElementById('Dni').value;
+        var celular = document.getElementById('Celular').value;
+        var vehiculo = document.getElementById('Vehiculo').value;
+        var placa = document.getElementById('Placa').value;
+
+        if (nombre.trim() === '') {
+            alert('Debe rellenar el campo de Nombre');
+            return false;
+        }
+
+        if (apellidoPaterno.trim() === '') {
+            alert('Debe rellenar el campo de Apellido Paterno');
+            return false;
+        }
+
+        if (apellidoMaterno.trim() === '') {
+            alert('Debe rellenar el campo de Apellido Materno');
+            return false;
+        }
+
+        if (dni.trim() === '') {
+            alert('Debe rellenar el campo de DNI');
+            return false;
+        }
+
+        if (celular.trim() === '') {
+            alert('Debe rellenar el campo de Celular');
+            return false;
+        }
+
+        if (vehiculo.trim() === '') {
+            alert('Debe rellenar el campo de Vehículo');
+            return false;
+        }
+
+        if (placa.trim() === '') {
+            alert('Debe rellenar el campo de Placa');
+            return false;
+        }
+
+        return true;
+    }
+</script>
+<br>
+<div class="container">
+    <h1>Registrar delivery</h1>
+    <form asp-action="Create" onsubmit="return validateForm()">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div>
+            <label for="Nombre">Nombre</label>
+            <input type="text" id="Nombre" name="Nombre" class="form-control" />
+            <span asp-validation-for="Nombre" class="text-danger"></span>
+        </div>
+        <div>
+            <label for="ApellidoPaterno">Apellido Paterno</label>
+            <input type="text" id="ApellidoPaterno" name="ApellidoPaterno" class="form-control" />
+            <span asp-validation-for="ApellidoPaterno" class="text-danger"></span>
+        </div>
+        <div>
+            <label for="ApellidoMaterno">Apellido Materno</label>
+            <input type="text" id="ApellidoMaterno" name="ApellidoMaterno" class="form-control" />
+            <span asp-validation-for="ApellidoMaterno" class="text-danger"></span>
+        </div>
+        <div>
+            <label for="Dni">DNI</label>
+            <input type="text" id="Dni" name="Dni" class="form-control" />
+            <span asp-validation-for="Dni" class="text-danger"></span>
+        </div>
+        <div>
+            <label for="Celular">Celular</label>
+            <input type="text" id="Celular" name="Celular" class="form-control" />
+            <span asp-validation-for="Celular" class="text-danger"></span>
+        </div>
+        <div>
+            <label for="Vehiculo">Vehículo</label>
+            <input type="text" id="Vehiculo" name="Vehiculo" class="form-control" />
+            <span asp-validation-for="Vehiculo" class="text-danger"></span>
+        </div>
+        <div>
+            <label for="Placa">Placa</label>
+            <input type="text" id="Placa" name="Placa" class="form-control" />
+            <span asp-validation-for="Placa" class="text-danger"></span>
+        </div>
+        <div>
+            <input type="submit" value="Guardar" class="btn btn-primary my-3" />
+        </div>
+    </form>
+    <div class="text-center">
+        <a class="btn btn-light" asp-action="Index">&laquo; Volver</a>
+    </div>
+</div>

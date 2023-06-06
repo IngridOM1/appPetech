@@ -3,6 +3,14 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
+
+@section Styles {
+    <link href="~/css/createProd.css" rel="stylesheet" />
+    <link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet" />
+    <link href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css" rel="stylesheet" />
+}
+
+
 @{
     ViewData["Title"] = "ADMIN PAGE";
 
@@ -10,54 +18,113 @@
        Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
     }
 }
-
+<br>
 <div class="container">
+    <h1>REGISTRAR PRODUCTO</h1>
+     <form asp-action="Create" onsubmit="return validateForm()">
+        <div class="text-danger"></div>
+    
+        <div>
+            <label for="Name">Nombre</label>
+            <input type="text" id="Name" name="Name" />
+            <span class="error"></span>
+        </div>
 
-<h1>Registrar Producto</h1>
+        <div>
+            <label for="Descripcion">Descripción</label>
+            <input type="text" id="Descripcion" name="Descripcion" />
+            <span class="error"></span>
+        </div>
 
-<h4>Producto</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label class="control-label">Nombre</label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label class="control-label">Descripcion</label>
-                <input asp-for="Descripcion" class="form-control" />
-                <span asp-validation-for="Descripcion" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label class="control-label">Precio</label>
-                <input asp-for="Precio" class="form-control" />
-                <span asp-validation-for="Precio" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label class="control-label">Descuento</label>
-                <input asp-for="PorcentajeDescuento" class="form-control" />
-                <span asp-validation-for="PorcentajeDescuento" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ImageName" class="control-label"></label>
-                <input asp-for="ImageName" class="form-control" />
-                <span asp-validation-for="ImageName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Guardar" class="btn btn-primary my-3" />
-            </div>
-        </form>
+        <div>
+            <label for="Precio">Precio</label>
+            <input type="number" id="Precio" name="Precio" step="0.01" onblur="formatPrice()" />
+            <span class="error"></span>
+        </div>
+
+
+        <div>
+            <label for="PorcentajeDescuento">Descuento</label>
+            <input type="number" id="PorcentajeDescuento" name="PorcentajeDescuento" />
+            <span class="error"></span>
+        </div>
+
+        <div>
+            <label for="ImageName">Imagen</label>
+            <input type="file" id="ImageName" name="ImageName" class="file-input" accept="image/*">
+        </div>
+
+
+    <br>
+        <div>
+    <input type="submit" value="Guardar" style="background-color: #40b40e; color: white;" />
+        </div>
+
+    </form>
+
+    <div class="text-center">
+        <a class="btn btn-light" asp-action="Index">&laquo; Volver</a>
     </div>
 </div>
 
-<div>
-    <a class="btn btn-ligth" asp-action="Index"> 	&laquo;Volver</a>
-</div>
 
-</div>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="https://unpkg.com/filepond/dist/filepond.js"></script>
+    <script src="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.js"></script>
+    <script>
+        // Configurar Filepond
+        FilePond.registerPlugin(FilePondPluginImagePreview);
+
+        FilePond.setOptions({
+            allowMultiple: false,
+            acceptedFileTypes: ['image/*'],
+            server: {
+                url: '/upload', // Especifica la URL de tu endpoint para cargar el archivo
+                process: {
+                    method: 'POST',
+                    headers: {
+                        'X-CSRF-TOKEN': '@Html.AntiForgeryToken()'
+                    },
+                    onload: (response) => {
+                        // Maneja la respuesta del servidor después de cargar el archivo
+                        console.log(response);
+                    }
+                }
+            }
+        });
+
+        FilePond.create(document.querySelector('#ImageName'));
+
+        function validateForm() {
+            var name = document.getElementById('Name').value;
+            var descripcion = document.getElementById('Descripcion').value;
+            var precio = document.getElementById('Precio').value;
+
+            if (name.trim() === '') {
+                alert('Debe rellenar el campo de Nombre');
+                return false;
+            }
+
+            if (descripcion.trim() === '') {
+                alert('Debe rellenar el campo de Descripción');
+                return false;
+            }
+
+            if (precio.trim() === '') {
+                alert('Debe rellenar el campo de Precio');
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+
+    <script>
+        function formatPrice() {
+            var precioInput = document.getElementById('Precio');
+            var precioValue = parseFloat(precioInput.value).toFixed(2);
+            precioInput.value = precioValue;
+        }
+    </script>
 }
