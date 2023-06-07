@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech42\\appPetech\\appPetech.csproj": {}
+    "C:\\Users\\51941\\Desktop\\AppPetech4\\appPetech\\appPetech.csproj": {}
   },
   "projects": {
-    "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech42\\appPetech\\appPetech.csproj": {
+    "C:\\Users\\51941\\Desktop\\AppPetech4\\appPetech\\appPetech.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech42\\appPetech\\appPetech.csproj",
+        "projectUniqueName": "C:\\Users\\51941\\Desktop\\AppPetech4\\appPetech\\appPetech.csproj",
         "projectName": "appPetech",
-        "projectPath": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech42\\appPetech\\appPetech.csproj",
-        "packagesPath": "C:\\Users\\INGRID\\.nuget\\packages\\",
-        "outputPath": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech42\\appPetech\\obj\\",
+        "projectPath": "C:\\Users\\51941\\Desktop\\AppPetech4\\appPetech\\appPetech.csproj",
+        "packagesPath": "C:\\Users\\51941\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\51941\\Desktop\\AppPetech4\\appPetech\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\INGRID\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\51941\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
