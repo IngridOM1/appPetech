@@ -11,51 +11,51 @@
         Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
     }
 }
-
-<h1>Details</h1>
+<div class="container">
+<h1>DETALLE</h1>
 
 <div>
-    <h4>Delivery</h4>
+
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nombre)
+            NOMBRE: 
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Nombre)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ApellidoPaterno)
+            APELLIDO PATERNO: 
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.ApellidoPaterno)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ApellidoMaterno)
+            APELLIDO MATERNO:
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.ApellidoMaterno)
         </dd>
  <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Dni)
+            DNI:
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Dni)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Celular)
+            CELULAR:
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Celular)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Vehiculo)
+           VEHICULO:
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Vehiculo)
         </dd>
                 <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Placa)
+            PLACA DEL VEHICULO:
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Placa)
@@ -63,6 +63,10 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+<div >
+    <a class="btn btn-primary"asp-action="Edit" asp-route-id="@Model?.Id">EDITAR</a> 
+   </div> 
+   <br>
+    <a class="btn btn-primary" asp-action="Index">VOLVER</a>
+</div>
 </div>
