@@ -15,6 +15,23 @@
 <div class="text-center">
     <h1>Mira los Últimos Pedidos</h1>
 
+    <div class="SearchContainer">
+        <form method="post" asp-controller="Pedido" asp-action="Index" class="SearchContainer_searchForm">
+            <label class="searchForm_label">Buscar por usuario</label>
+            <input class="searchForm_input" type="search" name="searchUsername" placeholder="example@example.com">
+            
+            <label class="searchForm_label">Filtrar por estado del pedido</label>
+            <select class="searchForm_select" name="orderStatus">
+                <option value="">Todos</option>
+                <option value="PENDIENTE">Pendiente</option>
+                <option value="ENTREGADO">Entregado</option>
+            </select>
+
+            <button class="searchForm_submit" type="submit">Buscar</button>
+        </form>
+    </div>
+
+
     <table class="table">
         <thead>
             <tr>
