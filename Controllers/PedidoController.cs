@@ -32,12 +32,6 @@ namespace appPetech.Controllers
         {
             var pedidos = from o in _context.DataPedido select o;
 
-            var userID = _userManager.GetUserName(User);
-            //var userName = await _userManager.FindByNameAsync(userID);
-            //var rolList = await _userManager.GetRolesAsync(userName);
-
-            //Console.WriteLine(rolList[0]);
-
             if(!String.IsNullOrEmpty(searchUsername) && !String.IsNullOrEmpty(orderStatus)){
                 pedidos = pedidos.Where(s => s.UserID.Contains(searchUsername) && s.Status.Contains(orderStatus));
             }else if (!String.IsNullOrEmpty(searchUsername) ){
@@ -53,7 +47,6 @@ namespace appPetech.Controllers
             return View(await pedidos.ToListAsync());
         }
 
-    //[HttpGet("Edit/{id}")]
     public async Task<IActionResult> Edit(int? id){
 
         if (id == null || _context.DataPedido == null){
@@ -75,9 +68,6 @@ namespace appPetech.Controllers
         {
             if (id != pedido.ID)
             {
-                Console.WriteLine("NO SE LOGRO EDITAR EL DATO ID");
-                Console.WriteLine(id);
-                Console.WriteLine(""+pedido.ID +pedido.Total + pedido.Status );
                 return NotFound();
             }
 
@@ -85,13 +75,11 @@ namespace appPetech.Controllers
             {
                 try{
                     _context.Update(pedido);
-                    Console.WriteLine("SE LOGRO EDITAR EL DATO");
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException){
                     if (!DataExists(pedido.ID))
                     {
-                        Console.WriteLine("NO SE LOGRO EDITAR EL DATO , NO HAY DATAEXIST");
                         return NotFound();
                     }
                     else
@@ -101,9 +89,7 @@ namespace appPetech.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            Console.WriteLine("NO SE LOGRO EDITAR EL DATO");
-            Console.WriteLine(ModelState.IsValid);
-            return View("Index",pedido);
+            return View(pedido);
         }
 
         private bool DataExists(int id)
