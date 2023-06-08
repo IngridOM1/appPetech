@@ -1,0 +1,54 @@
+@model appPetech.Models.Pedido
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Pedidos";
+
+    if (SignInManager.IsSignedIn(User))
+    {
+        Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    }
+}
+<div class="container">
+<h1>EDITAR</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ID" />
+            <div class="form-group my-4">
+            
+                <label  class="control-label">Usuario</label>
+                <input asp-for="UserID" class="form-control" readonly/>
+                <span asp-validation-for="UserID" class="text-danger"></span>
+            </div>
+            <div class="form-group my-4">
+                <label  class="control-label">Monto a pagar</label>
+                <input asp-for="Total" class="form-control" readonly/>
+                <span asp-validation-for="Total" class="text-danger"></span>
+            </div>
+            <div class="form-group my-4">
+                <label class="control-label">Estado</label>
+                <select asp-for="Status">
+                    <option value="PENDIENTE">Pendiente</option>
+                    <option value="ENTREGADO">Enviado</option>
+                </select>
+            </div>
+            <div class="form-group my-4">
+                <input type="submit" value="GUARDAR" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-primary" asp-action="Index">  VOLVER </a>
+</div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

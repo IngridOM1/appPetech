@@ -18740,6 +18740,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 07-06\\appPetech\\Views\\Pedido\\Edit.cshtml",
+      "TargetPath": "Views\\Pedido\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\josue\\OneDrive\\Escritorio\\Programacion I universidad\\Petech 07-06\\appPetech\\Views\\Pedido\\Index.cshtml",
       "TargetPath": "Views\\Pedido\\Index.cshtml",
       "FileKind": "mvc"
