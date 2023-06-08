@@ -28,11 +28,22 @@ namespace appPetech.Controllers
             _context = context;
         }
 
-        public  async Task<IActionResult>  Index()
+        public  async Task<IActionResult>  Index(string? searchUsername,string? orderStatus)
         {
-             var pedidos = from o in _context.DataPedido select o;
-             pedidos = pedidos.Where(s => s.Status.Contains("PENDIENTE"));
-            
+             //var pedidos = from o in _context.DataPedido select o;
+             //pedidos = pedidos.Where(s => s.Status.Contains("PENDIENTE"));
+            var pedidos = from o in _context.DataPedido select o;
+
+            if(!String.IsNullOrEmpty(searchUsername) && !String.IsNullOrEmpty(orderStatus)){
+                pedidos = pedidos.Where(s => s.UserID.Contains(searchUsername) && s.Status.Contains(orderStatus));
+            }else if (!String.IsNullOrEmpty(searchUsername) ){
+                pedidos = pedidos.Where(s => s.UserID.Contains(searchUsername));
+            }else if (!String.IsNullOrEmpty(orderStatus)){
+                pedidos = pedidos.Where(s => s.Status.Contains(orderStatus));
+            }else{
+                pedidos = from o in _context.DataPedido select o;
+            }
+
             return View(await pedidos.ToListAsync());
         }
 
