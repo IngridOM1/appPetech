@@ -64,7 +64,7 @@ namespace appPetech.Controllers
 
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Edit(int id, [Bind("ID,UserID,Total,Status")] Pedido pedido)
+    public async Task<IActionResult> Edit(int id, [Bind("ID,UserID,Total,Status,Cantidad")] Pedido pedido)
         {
             if (id != pedido.ID)
             {
