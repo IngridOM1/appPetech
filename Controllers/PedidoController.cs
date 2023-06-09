@@ -47,6 +47,24 @@ namespace appPetech.Controllers
             return View(await pedidos.ToListAsync());
         }
 
+
+        public async Task<IActionResult> Details(int? Id)
+        {
+            if (Id == null || _context.DataProductos == null)
+            {
+                return NotFound();
+            }
+
+            var productos = await _context.DataProductos
+                .FirstOrDefaultAsync(m => m.Id == Id);
+            if (productos == null)
+            {
+                return NotFound();
+            }
+
+            return View(productos);
+        }
+
     public async Task<IActionResult> Edit(int? id){
 
         if (id == null || _context.DataPedido == null){

@@ -11315,19 +11315,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\INGRID\\.nuget\\packages\\": {}
+    "C:\\Users\\FERNANDO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech44\\appPetech\\appPetech.csproj",
+      "projectUniqueName": "C:\\Users\\FERNANDO\\Desktop\\petech2\\appPetech\\appPetech.csproj",
       "projectName": "appPetech",
-      "projectPath": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech44\\appPetech\\appPetech.csproj",
-      "packagesPath": "C:\\Users\\INGRID\\.nuget\\packages\\",
-      "outputPath": "C:\\PROGRAMACION2023\\PROYECTO PROGRAMACION\\appPetech44\\appPetech\\obj\\",
+      "projectPath": "C:\\Users\\FERNANDO\\Desktop\\petech2\\appPetech\\appPetech.csproj",
+      "packagesPath": "C:\\Users\\FERNANDO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FERNANDO\\Desktop\\petech2\\appPetech\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\INGRID\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\FERNANDO\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -11403,7 +11403,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
